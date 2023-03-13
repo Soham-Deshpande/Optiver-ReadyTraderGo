@@ -1,0 +1,1956 @@
+2023-03-09 21:44:58,068 [INFO   ] [APP] testtrader started with arguments={rtg.py, run, .\testtrader.py}
+2023-03-09 21:44:58,069 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"Type":"mmap","Name":"info.dat"},"TeamName":"TraderTwo","Secret":"secret"}
+2023-03-09 21:46:41,491 [INFO   ] [APP] testtrader started with arguments={rtg.py, run, .\testtrader.py}
+2023-03-09 21:46:41,491 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"Type":"mmap","Name":"info.dat"},"TeamName":"TraderTwo","Secret":"secret"}
+2023-03-09 21:47:23,284 [INFO   ] [APP] testtrader started with arguments={rtg.py, run, .\testtrader.py}
+2023-03-09 21:47:23,285 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"Type":"mmap","Name":"info.dat"},"TeamName":"TraderTwo","Secret":"secret"}
+2023-03-09 21:48:59,698 [INFO   ] [APP] testtrader started with arguments={rtg.py, run, .\testtrader.py}
+2023-03-09 21:48:59,699 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"Type":"mmap","Name":"info.dat"},"TeamName":"TraderTwo","Secret":"secret"}
+2023-03-09 21:48:59,720 [INFO   ] [CONNECTION] fd=1444 connection established: peer=127.0.0.1:12345
+2023-03-09 21:48:59,722 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 185
+2023-03-09 21:48:59,722 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 235
+2023-03-09 21:48:59,723 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 186
+2023-03-09 21:48:59,723 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 236
+2023-03-09 21:48:59,723 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 187
+2023-03-09 21:48:59,723 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 188
+2023-03-09 21:48:59,723 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 237
+2023-03-09 21:48:59,723 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 189
+2023-03-09 21:48:59,723 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 238
+2023-03-09 21:48:59,723 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 190
+2023-03-09 21:48:59,724 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 239
+2023-03-09 21:48:59,724 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 191
+2023-03-09 21:48:59,724 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 240
+2023-03-09 21:48:59,724 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 241
+2023-03-09 21:48:59,724 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 192
+2023-03-09 21:48:59,724 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 242
+2023-03-09 21:48:59,724 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 193
+2023-03-09 21:48:59,724 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 243
+2023-03-09 21:48:59,724 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 194
+2023-03-09 21:48:59,725 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 195
+2023-03-09 21:48:59,725 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 244
+2023-03-09 21:48:59,725 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 196
+2023-03-09 21:48:59,725 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 245
+2023-03-09 21:48:59,725 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 197
+2023-03-09 21:48:59,725 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 246
+2023-03-09 21:48:59,725 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 247
+2023-03-09 21:48:59,725 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 198
+2023-03-09 21:48:59,725 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 199
+2023-03-09 21:48:59,725 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 248
+2023-03-09 21:49:04,995 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 249
+2023-03-09 21:49:04,995 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 200
+2023-03-09 21:49:12,054 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 250
+2023-03-09 21:49:12,055 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 201
+2023-03-09 21:49:20,789 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 202
+2023-03-09 21:49:20,789 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 251
+2023-03-09 21:49:20,948 [ERROR  ] [CONNECTION] fd=1444 connection lost:
+Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\selector_events.py", line 848, in _read_ready__data_received
+    data = self._sock.recv(self.max_size)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2023-03-09 21:49:20,958 [INFO   ] [APP] closing event loop
+2023-03-09 21:49:20,959 [INFO   ] [RECEIVER] connection lost
+2023-03-09 21:49:26,353 [INFO   ] [APP] testtrader started with arguments={rtg.py, run, .\testtrader.py}
+2023-03-09 21:49:26,353 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"Type":"mmap","Name":"info.dat"},"TeamName":"TraderTwo","Secret":"secret"}
+2023-03-09 21:49:26,381 [INFO   ] [CONNECTION] fd=1424 connection established: peer=127.0.0.1:12345
+2023-03-09 21:49:31,521 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 2
+2023-03-09 21:49:31,633 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 2
+2023-03-09 21:49:31,801 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 3
+2023-03-09 21:49:31,821 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 4
+2023-03-09 21:49:31,873 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 3
+2023-03-09 21:49:32,055 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 4
+2023-03-09 21:49:32,093 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 5
+2023-03-09 21:49:32,265 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 6
+2023-03-09 21:49:32,475 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 5
+2023-03-09 21:49:32,986 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 6
+2023-03-09 21:49:32,986 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 7
+2023-03-09 21:49:33,254 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 7
+2023-03-09 21:49:33,405 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 8
+2023-03-09 21:49:33,886 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 8
+2023-03-09 21:49:33,886 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 9
+2023-03-09 21:49:34,298 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 9
+2023-03-09 21:49:34,298 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 10
+2023-03-09 21:49:34,640 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 11
+2023-03-09 21:49:34,641 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 10
+2023-03-09 21:49:35,072 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 12
+2023-03-09 21:49:35,072 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 11
+2023-03-09 21:49:35,423 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 12
+2023-03-09 21:49:35,424 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 13
+2023-03-09 21:49:35,802 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 13
+2023-03-09 21:49:35,803 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 14
+2023-03-09 21:49:36,214 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 14
+2023-03-09 21:49:36,214 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 15
+2023-03-09 21:49:36,685 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 15
+2023-03-09 21:49:36,685 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 16
+2023-03-09 21:49:37,570 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 16
+2023-03-09 21:49:37,570 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 17
+2023-03-09 21:49:38,233 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 18
+2023-03-09 21:49:38,234 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 17
+2023-03-09 21:49:38,744 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 19
+2023-03-09 21:49:38,745 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 18
+2023-03-09 21:49:39,349 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 20
+2023-03-09 21:49:39,349 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 19
+2023-03-09 21:49:39,881 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 20
+2023-03-09 21:49:39,881 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 21
+2023-03-09 21:49:40,574 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 22
+2023-03-09 21:49:40,574 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 21
+2023-03-09 21:49:41,282 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 22
+2023-03-09 21:49:41,282 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 23
+2023-03-09 21:49:41,726 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 24
+2023-03-09 21:49:42,041 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 23
+2023-03-09 21:49:42,041 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 25
+2023-03-09 21:49:42,245 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 24
+2023-03-09 21:49:42,520 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 26
+2023-03-09 21:49:42,521 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 25
+2023-03-09 21:49:43,142 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 26
+2023-03-09 21:49:43,142 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 27
+2023-03-09 21:49:43,795 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 27
+2023-03-09 21:49:43,795 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 28
+2023-03-09 21:49:44,432 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 28
+2023-03-09 21:49:44,432 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 29
+2023-03-09 21:49:45,085 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 29
+2023-03-09 21:49:45,085 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 30
+2023-03-09 21:49:45,529 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 31
+2023-03-09 21:49:45,529 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 30
+2023-03-09 21:49:45,999 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 32
+2023-03-09 21:49:46,000 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 31
+2023-03-09 21:49:46,421 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 33
+2023-03-09 21:49:46,901 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 32
+2023-03-09 21:49:46,901 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 34
+2023-03-09 21:49:47,374 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 33
+2023-03-09 21:49:47,374 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 35
+2023-03-09 21:49:48,085 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 34
+2023-03-09 21:49:48,085 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 36
+2023-03-09 21:49:49,121 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 35
+2023-03-09 21:49:49,121 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 37
+2023-03-09 21:49:50,779 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 36
+2023-03-09 21:49:50,779 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 38
+2023-03-09 21:49:53,004 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 37
+2023-03-09 21:49:53,004 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 39
+2023-03-09 21:49:56,023 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 40
+2023-03-09 21:49:56,023 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 38
+2023-03-09 21:51:17,772 [INFO   ] [APP] testtrader started with arguments={rtg.py, run, .\testtrader.py}
+2023-03-09 21:51:17,772 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"Type":"mmap","Name":"info.dat"},"TeamName":"TraderTwo","Secret":"secret"}
+2023-03-09 21:51:17,781 [INFO   ] [CONNECTION] fd=1432 connection established: peer=127.0.0.1:12345
+2023-03-09 21:51:22,740 [ERROR  ] [RECEIVER] connection lost:
+Traceback (most recent call last):
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\pubsub.py", line 136, in _subscribe_worker
+    protocol.datagram_received(buffer[start:start + length], from_addr)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\messages.py", line 212, in datagram_received
+    self.on_datagram(typ, data, HEADER_SIZE, length)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\base_auto_trader.py", line 69, in on_datagram
+    self.on_order_book_update_message(inst, seq, *BOOK_PART.iter_unpack(data[ORDER_BOOK_HEADER_SIZE:]))
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\testtrader.py", line 97, in on_order_book_update_message
+    if self.bid_id == 0 and self.new_bid_price != 0 and self.bid_volume != 0:
+AttributeError: 'AutoTrader' object has no attribute 'new_bid_price'
+2023-03-09 21:51:22,742 [INFO   ] [APP] closing event loop
+2023-03-09 21:51:22,742 [INFO   ] [CONNECTION] fd=1432 connection lost
+2023-03-09 21:51:22,742 [ERROR  ] [asyncio] Exception in callback _SelectorSocketTransport._call_connection_lost(None)
+handle: <Handle _SelectorSocketTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\selector_events.py", line 970, in _call_connection_lost
+    super()._call_connection_lost(exc)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\selector_events.py", line 728, in _call_connection_lost
+    self._protocol.connection_lost(exc)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\base_auto_trader.py", line 59, in connection_lost
+    Subscription.close(self)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\messages.py", line 186, in close
+    self._receiver_transport.close()
+AttributeError: 'NoneType' object has no attribute 'close'
+2023-03-09 21:52:33,252 [INFO   ] [APP] testtrader started with arguments={rtg.py, run, .\testtrader.py, .\autotrader.py}
+2023-03-09 21:52:33,252 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"Type":"mmap","Name":"info.dat"},"TeamName":"TraderTwo","Secret":"secret"}
+2023-03-09 21:52:33,262 [INFO   ] [CONNECTION] fd=1408 connection established: peer=127.0.0.1:12345
+2023-03-09 21:52:38,174 [ERROR  ] [RECEIVER] connection lost:
+Traceback (most recent call last):
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\pubsub.py", line 136, in _subscribe_worker
+    protocol.datagram_received(buffer[start:start + length], from_addr)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\messages.py", line 212, in datagram_received
+    self.on_datagram(typ, data, HEADER_SIZE, length)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\base_auto_trader.py", line 69, in on_datagram
+    self.on_order_book_update_message(inst, seq, *BOOK_PART.iter_unpack(data[ORDER_BOOK_HEADER_SIZE:]))
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\testtrader.py", line 97, in on_order_book_update_message
+    if self.bid_id == 0 and self.new_bid_price != 0 and self.bid_volume != 0:
+AttributeError: 'AutoTrader' object has no attribute 'new_bid_price'
+2023-03-09 21:52:38,174 [INFO   ] [APP] closing event loop
+2023-03-09 21:52:38,174 [INFO   ] [CONNECTION] fd=1408 connection lost
+2023-03-09 21:52:38,174 [ERROR  ] [asyncio] Exception in callback _SelectorSocketTransport._call_connection_lost(None)
+handle: <Handle _SelectorSocketTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\selector_events.py", line 970, in _call_connection_lost
+    super()._call_connection_lost(exc)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\selector_events.py", line 728, in _call_connection_lost
+    self._protocol.connection_lost(exc)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\base_auto_trader.py", line 59, in connection_lost
+    Subscription.close(self)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\messages.py", line 186, in close
+    self._receiver_transport.close()
+AttributeError: 'NoneType' object has no attribute 'close'
+2023-03-09 21:54:02,241 [INFO   ] [APP] testtrader started with arguments={rtg.py, run, .\testtrader.py, .\autotrader.py}
+2023-03-09 21:54:02,242 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"Type":"mmap","Name":"info.dat"},"TeamName":"TraderTwo","Secret":"secret"}
+2023-03-09 21:54:02,760 [INFO   ] [CONNECTION] fd=1336 connection established: peer=127.0.0.1:12345
+2023-03-09 21:54:07,289 [ERROR  ] [RECEIVER] connection lost:
+Traceback (most recent call last):
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\pubsub.py", line 136, in _subscribe_worker
+    protocol.datagram_received(buffer[start:start + length], from_addr)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\messages.py", line 212, in datagram_received
+    self.on_datagram(typ, data, HEADER_SIZE, length)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\base_auto_trader.py", line 69, in on_datagram
+    self.on_order_book_update_message(inst, seq, *BOOK_PART.iter_unpack(data[ORDER_BOOK_HEADER_SIZE:]))
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\testtrader.py", line 100, in on_order_book_update_message
+    if self.bid_id == 0 and self.new_bid_price != 0 and self.bid_volume != 0:
+AttributeError: 'AutoTrader' object has no attribute 'new_bid_price'
+2023-03-09 21:54:07,292 [INFO   ] [APP] closing event loop
+2023-03-09 21:54:07,292 [INFO   ] [CONNECTION] fd=1336 connection lost
+2023-03-09 21:54:07,292 [ERROR  ] [asyncio] Exception in callback _SelectorSocketTransport._call_connection_lost(None)
+handle: <Handle _SelectorSocketTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\selector_events.py", line 970, in _call_connection_lost
+    super()._call_connection_lost(exc)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\selector_events.py", line 728, in _call_connection_lost
+    self._protocol.connection_lost(exc)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\base_auto_trader.py", line 59, in connection_lost
+    Subscription.close(self)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\messages.py", line 186, in close
+    self._receiver_transport.close()
+AttributeError: 'NoneType' object has no attribute 'close'
+2023-03-09 21:58:58,705 [INFO   ] [APP] testtrader started with arguments={rtg.py, run, .\testtrader.py, .\autotrader.py}
+2023-03-09 21:58:58,705 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"Type":"mmap","Name":"info.dat"},"TeamName":"TraderTwo","Secret":"secret"}
+2023-03-09 22:02:52,579 [INFO   ] [APP] testtrader started with arguments={rtg.py, run, .\testtrader.py, .\autotrader.py}
+2023-03-09 22:02:52,580 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"Type":"mmap","Name":"info.dat"},"TeamName":"TraderTwo","Secret":"secret"}
+2023-03-09 22:03:51,223 [INFO   ] [APP] testtrader started with arguments={rtg.py, run, .\testtrader.py, .\autotrader.py}
+2023-03-09 22:03:51,224 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"Type":"mmap","Name":"info.dat"},"TeamName":"TraderTwo","Secret":"secret"}
+2023-03-09 22:03:51,247 [INFO   ] [CONNECTION] fd=1352 connection established: peer=127.0.0.1:12345
+2023-03-09 22:03:57,084 [ERROR  ] [RECEIVER] connection lost:
+Traceback (most recent call last):
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\pubsub.py", line 136, in _subscribe_worker
+    protocol.datagram_received(buffer[start:start + length], from_addr)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\messages.py", line 212, in datagram_received
+    self.on_datagram(typ, data, HEADER_SIZE, length)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\base_auto_trader.py", line 72, in on_datagram
+    self.on_trade_ticks_message(inst, seq, *TICKS_PART.iter_unpack(data[TRADE_TICKS_HEADER_SIZE:]))
+TypeError: on_trade_ticks_message() takes 3 positional arguments but 7 were given
+2023-03-09 22:03:57,087 [INFO   ] [APP] closing event loop
+2023-03-09 22:03:57,087 [INFO   ] [CONNECTION] fd=1352 connection lost
+2023-03-09 22:03:57,087 [ERROR  ] [asyncio] Exception in callback _SelectorSocketTransport._call_connection_lost(None)
+handle: <Handle _SelectorSocketTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\selector_events.py", line 970, in _call_connection_lost
+    super()._call_connection_lost(exc)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\selector_events.py", line 728, in _call_connection_lost
+    self._protocol.connection_lost(exc)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\base_auto_trader.py", line 59, in connection_lost
+    Subscription.close(self)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\messages.py", line 186, in close
+    self._receiver_transport.close()
+AttributeError: 'NoneType' object has no attribute 'close'
+2023-03-09 22:05:29,423 [INFO   ] [APP] testtrader started with arguments={rtg.py, run, .\testtrader.py, .\autotrader.py}
+2023-03-09 22:05:29,423 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"Type":"mmap","Name":"info.dat"},"TeamName":"TraderTwo","Secret":"secret"}
+2023-03-09 22:05:29,429 [INFO   ] [CONNECTION] fd=1092 connection established: peer=127.0.0.1:12345
+2023-03-09 22:05:34,904 [ERROR  ] [RECEIVER] connection lost:
+Traceback (most recent call last):
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\pubsub.py", line 136, in _subscribe_worker
+    protocol.datagram_received(buffer[start:start + length], from_addr)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\messages.py", line 212, in datagram_received
+    self.on_datagram(typ, data, HEADER_SIZE, length)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\base_auto_trader.py", line 72, in on_datagram
+    self.on_trade_ticks_message(inst, seq, *TICKS_PART.iter_unpack(data[TRADE_TICKS_HEADER_SIZE:]))
+TypeError: on_trade_ticks_message() takes 3 positional arguments but 7 were given
+2023-03-09 22:05:34,907 [INFO   ] [APP] closing event loop
+2023-03-09 22:05:34,907 [INFO   ] [CONNECTION] fd=1092 connection lost
+2023-03-09 22:05:34,907 [ERROR  ] [asyncio] Exception in callback _SelectorSocketTransport._call_connection_lost(None)
+handle: <Handle _SelectorSocketTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\selector_events.py", line 970, in _call_connection_lost
+    super()._call_connection_lost(exc)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\selector_events.py", line 728, in _call_connection_lost
+    self._protocol.connection_lost(exc)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\base_auto_trader.py", line 59, in connection_lost
+    Subscription.close(self)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\messages.py", line 186, in close
+    self._receiver_transport.close()
+AttributeError: 'NoneType' object has no attribute 'close'
+2023-03-09 22:06:14,322 [INFO   ] [APP] testtrader started with arguments={rtg.py, run, .\testtrader.py, .\autotrader.py}
+2023-03-09 22:06:14,322 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"Type":"mmap","Name":"info.dat"},"TeamName":"TraderTwo","Secret":"secret"}
+2023-03-09 22:06:14,332 [INFO   ] [CONNECTION] fd=976 connection established: peer=127.0.0.1:12345
+2023-03-09 22:06:45,020 [INFO   ] [APP] testtrader started with arguments={rtg.py, run, .\autotrader.py, .\testtrader.py}
+2023-03-09 22:06:45,020 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"Type":"mmap","Name":"info.dat"},"TeamName":"TraderTwo","Secret":"secret"}
+2023-03-09 22:06:45,021 [INFO   ] [CONNECTION] fd=1428 connection established: peer=127.0.0.1:12345
+2023-03-09 22:06:50,703 [ERROR  ] [RECEIVER] connection lost:
+Traceback (most recent call last):
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\pubsub.py", line 136, in _subscribe_worker
+    protocol.datagram_received(buffer[start:start + length], from_addr)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\messages.py", line 212, in datagram_received
+    self.on_datagram(typ, data, HEADER_SIZE, length)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\base_auto_trader.py", line 72, in on_datagram
+    self.on_trade_ticks_message(inst, seq, *TICKS_PART.iter_unpack(data[TRADE_TICKS_HEADER_SIZE:]))
+TypeError: on_trade_ticks_message() takes 3 positional arguments but 7 were given
+2023-03-09 22:06:50,705 [INFO   ] [APP] closing event loop
+2023-03-09 22:06:50,705 [INFO   ] [CONNECTION] fd=1428 connection lost
+2023-03-09 22:06:50,705 [ERROR  ] [asyncio] Exception in callback _SelectorSocketTransport._call_connection_lost(None)
+handle: <Handle _SelectorSocketTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\selector_events.py", line 970, in _call_connection_lost
+    super()._call_connection_lost(exc)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\selector_events.py", line 728, in _call_connection_lost
+    self._protocol.connection_lost(exc)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\base_auto_trader.py", line 59, in connection_lost
+    Subscription.close(self)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\messages.py", line 186, in close
+    self._receiver_transport.close()
+AttributeError: 'NoneType' object has no attribute 'close'
+2023-03-09 22:11:47,931 [INFO   ] [APP] testtrader started with arguments={rtg.py, run, .\autotrader.py, .\testtrader.py}
+2023-03-09 22:11:47,932 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"Type":"mmap","Name":"info.dat"},"TeamName":"TraderTwo","Secret":"secret"}
+2023-03-09 22:11:47,948 [INFO   ] [CONNECTION] fd=1456 connection established: peer=127.0.0.1:12345
+2023-03-09 22:11:53,455 [ERROR  ] [RECEIVER] connection lost:
+Traceback (most recent call last):
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\pubsub.py", line 136, in _subscribe_worker
+    protocol.datagram_received(buffer[start:start + length], from_addr)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\messages.py", line 212, in datagram_received
+    self.on_datagram(typ, data, HEADER_SIZE, length)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\base_auto_trader.py", line 72, in on_datagram
+    self.on_trade_ticks_message(inst, seq, *TICKS_PART.iter_unpack(data[TRADE_TICKS_HEADER_SIZE:]))
+TypeError: on_trade_ticks_message() takes 3 positional arguments but 7 were given
+2023-03-09 22:11:53,457 [INFO   ] [APP] closing event loop
+2023-03-09 22:11:53,458 [INFO   ] [CONNECTION] fd=1456 connection lost
+2023-03-09 22:11:53,458 [ERROR  ] [asyncio] Exception in callback _SelectorSocketTransport._call_connection_lost(None)
+handle: <Handle _SelectorSocketTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\selector_events.py", line 970, in _call_connection_lost
+    super()._call_connection_lost(exc)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\selector_events.py", line 728, in _call_connection_lost
+    self._protocol.connection_lost(exc)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\base_auto_trader.py", line 59, in connection_lost
+    Subscription.close(self)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\messages.py", line 186, in close
+    self._receiver_transport.close()
+AttributeError: 'NoneType' object has no attribute 'close'
+2023-03-09 22:28:25,813 [INFO   ] [APP] testtrader started with arguments={rtg.py, run, .\autotrader.py, .\testtrader.py}
+2023-03-09 22:28:25,814 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"Type":"mmap","Name":"info.dat"},"TeamName":"TraderTwo","Secret":"secret"}
+2023-03-09 22:28:25,851 [INFO   ] [CONNECTION] fd=1072 connection established: peer=127.0.0.1:12345
+2023-03-09 22:28:31,541 [ERROR  ] [RECEIVER] connection lost:
+Traceback (most recent call last):
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\pubsub.py", line 136, in _subscribe_worker
+    protocol.datagram_received(buffer[start:start + length], from_addr)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\messages.py", line 212, in datagram_received
+    self.on_datagram(typ, data, HEADER_SIZE, length)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\base_auto_trader.py", line 72, in on_datagram
+    self.on_trade_ticks_message(inst, seq, *TICKS_PART.iter_unpack(data[TRADE_TICKS_HEADER_SIZE:]))
+TypeError: on_trade_ticks_message() takes 3 positional arguments but 7 were given
+2023-03-09 22:28:31,542 [INFO   ] [APP] closing event loop
+2023-03-09 22:28:31,542 [INFO   ] [CONNECTION] fd=1072 connection lost
+2023-03-09 22:28:31,544 [ERROR  ] [asyncio] Exception in callback _SelectorSocketTransport._call_connection_lost(None)
+handle: <Handle _SelectorSocketTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\selector_events.py", line 970, in _call_connection_lost
+    super()._call_connection_lost(exc)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\selector_events.py", line 728, in _call_connection_lost
+    self._protocol.connection_lost(exc)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\base_auto_trader.py", line 59, in connection_lost
+    Subscription.close(self)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\messages.py", line 186, in close
+    self._receiver_transport.close()
+AttributeError: 'NoneType' object has no attribute 'close'
+2023-03-09 22:33:22,603 [INFO   ] [APP] testtrader started with arguments={rtg.py, run, .\autotrader.py, .\testtrader.py}
+2023-03-09 22:33:22,607 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"Type":"mmap","Name":"info.dat"},"TeamName":"TraderTwo","Secret":"secret"}
+2023-03-09 22:33:22,658 [INFO   ] [CONNECTION] fd=1028 connection established: peer=127.0.0.1:12345
+2023-03-09 22:33:28,302 [ERROR  ] [RECEIVER] connection lost:
+Traceback (most recent call last):
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\pubsub.py", line 136, in _subscribe_worker
+    protocol.datagram_received(buffer[start:start + length], from_addr)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\messages.py", line 212, in datagram_received
+    self.on_datagram(typ, data, HEADER_SIZE, length)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\base_auto_trader.py", line 72, in on_datagram
+    self.on_trade_ticks_message(inst, seq, *TICKS_PART.iter_unpack(data[TRADE_TICKS_HEADER_SIZE:]))
+TypeError: on_trade_ticks_message() takes 3 positional arguments but 7 were given
+2023-03-09 22:33:28,304 [INFO   ] [APP] closing event loop
+2023-03-09 22:33:28,304 [INFO   ] [CONNECTION] fd=1028 connection lost
+2023-03-09 22:33:28,304 [ERROR  ] [asyncio] Exception in callback _SelectorSocketTransport._call_connection_lost(None)
+handle: <Handle _SelectorSocketTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\selector_events.py", line 970, in _call_connection_lost
+    super()._call_connection_lost(exc)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\selector_events.py", line 728, in _call_connection_lost
+    self._protocol.connection_lost(exc)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\base_auto_trader.py", line 59, in connection_lost
+    Subscription.close(self)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\messages.py", line 186, in close
+    self._receiver_transport.close()
+AttributeError: 'NoneType' object has no attribute 'close'
+2023-03-09 22:34:34,750 [INFO   ] [APP] testtrader started with arguments={rtg.py, run, .\autotrader.py, .\testtrader.py}
+2023-03-09 22:34:34,750 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"Type":"mmap","Name":"info.dat"},"TeamName":"TraderTwo","Secret":"secret"}
+2023-03-09 22:34:34,770 [INFO   ] [CONNECTION] fd=1468 connection established: peer=127.0.0.1:12345
+2023-03-09 22:34:40,447 [ERROR  ] [RECEIVER] connection lost:
+Traceback (most recent call last):
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\pubsub.py", line 136, in _subscribe_worker
+    protocol.datagram_received(buffer[start:start + length], from_addr)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\messages.py", line 212, in datagram_received
+    self.on_datagram(typ, data, HEADER_SIZE, length)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\base_auto_trader.py", line 72, in on_datagram
+    self.on_trade_ticks_message(inst, seq, *TICKS_PART.iter_unpack(data[TRADE_TICKS_HEADER_SIZE:]))
+TypeError: on_trade_ticks_message() takes 3 positional arguments but 7 were given
+2023-03-09 22:34:40,450 [INFO   ] [APP] closing event loop
+2023-03-09 22:34:40,450 [INFO   ] [CONNECTION] fd=1468 connection lost
+2023-03-09 22:34:40,450 [ERROR  ] [asyncio] Exception in callback _SelectorSocketTransport._call_connection_lost(None)
+handle: <Handle _SelectorSocketTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\selector_events.py", line 970, in _call_connection_lost
+    super()._call_connection_lost(exc)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\selector_events.py", line 728, in _call_connection_lost
+    self._protocol.connection_lost(exc)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\base_auto_trader.py", line 59, in connection_lost
+    Subscription.close(self)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\messages.py", line 186, in close
+    self._receiver_transport.close()
+AttributeError: 'NoneType' object has no attribute 'close'
+2023-03-09 22:37:22,519 [INFO   ] [APP] testtrader started with arguments={rtg.py, run, .\autotrader.py, .\testtrader.py}
+2023-03-09 22:37:22,520 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"Type":"mmap","Name":"info.dat"},"TeamName":"TraderTwo","Secret":"secret"}
+2023-03-09 22:37:22,526 [INFO   ] [CONNECTION] fd=1272 connection established: peer=127.0.0.1:12345
+2023-03-09 22:37:28,226 [ERROR  ] [RECEIVER] connection lost:
+Traceback (most recent call last):
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\pubsub.py", line 136, in _subscribe_worker
+    protocol.datagram_received(buffer[start:start + length], from_addr)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\messages.py", line 212, in datagram_received
+    self.on_datagram(typ, data, HEADER_SIZE, length)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\base_auto_trader.py", line 72, in on_datagram
+    self.on_trade_ticks_message(inst, seq, *TICKS_PART.iter_unpack(data[TRADE_TICKS_HEADER_SIZE:]))
+TypeError: on_trade_ticks_message() takes 3 positional arguments but 7 were given
+2023-03-09 22:37:28,227 [INFO   ] [APP] closing event loop
+2023-03-09 22:37:28,227 [INFO   ] [CONNECTION] fd=1272 connection lost
+2023-03-09 22:37:28,228 [ERROR  ] [asyncio] Exception in callback _SelectorSocketTransport._call_connection_lost(None)
+handle: <Handle _SelectorSocketTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\selector_events.py", line 970, in _call_connection_lost
+    super()._call_connection_lost(exc)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\selector_events.py", line 728, in _call_connection_lost
+    self._protocol.connection_lost(exc)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\base_auto_trader.py", line 59, in connection_lost
+    Subscription.close(self)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\messages.py", line 186, in close
+    self._receiver_transport.close()
+AttributeError: 'NoneType' object has no attribute 'close'
+2023-03-09 22:42:34,734 [INFO   ] [APP] testtrader started with arguments={rtg.py, run, .\autotrader.py, .\testtrader.py}
+2023-03-09 22:42:34,734 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"Type":"mmap","Name":"info.dat"},"TeamName":"TraderTwo","Secret":"secret"}
+2023-03-09 22:42:34,741 [INFO   ] [CONNECTION] fd=1436 connection established: peer=127.0.0.1:12345
+2023-03-09 22:42:39,749 [ERROR  ] [RECEIVER] connection lost:
+Traceback (most recent call last):
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\pubsub.py", line 136, in _subscribe_worker
+    protocol.datagram_received(buffer[start:start + length], from_addr)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\messages.py", line 212, in datagram_received
+    self.on_datagram(typ, data, HEADER_SIZE, length)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\base_auto_trader.py", line 72, in on_datagram
+    self.on_trade_ticks_message(inst, seq, *TICKS_PART.iter_unpack(data[TRADE_TICKS_HEADER_SIZE:]))
+TypeError: on_trade_ticks_message() takes 3 positional arguments but 7 were given
+2023-03-09 22:42:39,751 [INFO   ] [APP] closing event loop
+2023-03-09 22:42:39,751 [INFO   ] [CONNECTION] fd=1436 connection lost
+2023-03-09 22:42:39,751 [ERROR  ] [asyncio] Exception in callback _SelectorSocketTransport._call_connection_lost(None)
+handle: <Handle _SelectorSocketTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\selector_events.py", line 970, in _call_connection_lost
+    super()._call_connection_lost(exc)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\selector_events.py", line 728, in _call_connection_lost
+    self._protocol.connection_lost(exc)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\base_auto_trader.py", line 59, in connection_lost
+    Subscription.close(self)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\messages.py", line 186, in close
+    self._receiver_transport.close()
+AttributeError: 'NoneType' object has no attribute 'close'
+2023-03-09 22:44:04,440 [INFO   ] [APP] testtrader started with arguments={rtg.py, run, .\autotrader.py, .\testtrader.py}
+2023-03-09 22:44:04,440 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"Type":"mmap","Name":"info.dat"},"TeamName":"TraderTwo","Secret":"secret"}
+2023-03-09 22:44:04,452 [INFO   ] [CONNECTION] fd=1372 connection established: peer=127.0.0.1:12345
+2023-03-09 22:44:11,342 [ERROR  ] [RECEIVER] connection lost:
+Traceback (most recent call last):
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\pubsub.py", line 136, in _subscribe_worker
+    protocol.datagram_received(buffer[start:start + length], from_addr)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\messages.py", line 212, in datagram_received
+    self.on_datagram(typ, data, HEADER_SIZE, length)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\base_auto_trader.py", line 72, in on_datagram
+    self.on_trade_ticks_message(inst, seq, *TICKS_PART.iter_unpack(data[TRADE_TICKS_HEADER_SIZE:]))
+TypeError: on_trade_ticks_message() takes 3 positional arguments but 7 were given
+2023-03-09 22:44:11,346 [INFO   ] [APP] closing event loop
+2023-03-09 22:44:11,346 [INFO   ] [CONNECTION] fd=1372 connection lost
+2023-03-09 22:44:11,347 [ERROR  ] [asyncio] Exception in callback _SelectorSocketTransport._call_connection_lost(None)
+handle: <Handle _SelectorSocketTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\selector_events.py", line 970, in _call_connection_lost
+    super()._call_connection_lost(exc)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\selector_events.py", line 728, in _call_connection_lost
+    self._protocol.connection_lost(exc)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\base_auto_trader.py", line 59, in connection_lost
+    Subscription.close(self)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\messages.py", line 186, in close
+    self._receiver_transport.close()
+AttributeError: 'NoneType' object has no attribute 'close'
+2023-03-09 22:46:03,954 [INFO   ] [APP] testtrader started with arguments={rtg.py, run, .\autotrader.py, .\testtrader.py}
+2023-03-09 22:46:03,954 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"Type":"mmap","Name":"info.dat"},"TeamName":"TraderTwo","Secret":"secret"}
+2023-03-09 22:46:03,962 [INFO   ] [CONNECTION] fd=964 connection established: peer=127.0.0.1:12345
+2023-03-09 22:46:10,416 [ERROR  ] [RECEIVER] connection lost:
+Traceback (most recent call last):
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\pubsub.py", line 136, in _subscribe_worker
+    protocol.datagram_received(buffer[start:start + length], from_addr)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\messages.py", line 212, in datagram_received
+    self.on_datagram(typ, data, HEADER_SIZE, length)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\base_auto_trader.py", line 72, in on_datagram
+    self.on_trade_ticks_message(inst, seq, *TICKS_PART.iter_unpack(data[TRADE_TICKS_HEADER_SIZE:]))
+TypeError: on_trade_ticks_message() takes 3 positional arguments but 7 were given
+2023-03-09 22:46:10,418 [INFO   ] [APP] closing event loop
+2023-03-09 22:46:10,418 [INFO   ] [CONNECTION] fd=964 connection lost
+2023-03-09 22:46:10,418 [ERROR  ] [asyncio] Exception in callback _SelectorSocketTransport._call_connection_lost(None)
+handle: <Handle _SelectorSocketTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\selector_events.py", line 970, in _call_connection_lost
+    super()._call_connection_lost(exc)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\selector_events.py", line 728, in _call_connection_lost
+    self._protocol.connection_lost(exc)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\base_auto_trader.py", line 59, in connection_lost
+    Subscription.close(self)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\messages.py", line 186, in close
+    self._receiver_transport.close()
+AttributeError: 'NoneType' object has no attribute 'close'
+2023-03-11 14:43:29,235 [INFO   ] [APP] testtrader started with arguments={rtg.py, run, .\testtrader.py, .\autotrader.py}
+2023-03-11 14:43:29,235 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"Type":"mmap","Name":"info.dat"},"TeamName":"TraderTwo","Secret":"secret"}
+2023-03-11 14:43:29,266 [INFO   ] [CONNECTION] fd=940 connection established: peer=127.0.0.1:12345
+2023-03-11 14:43:29,266 [ERROR  ] [RECEIVER] connection lost:
+Traceback (most recent call last):
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\pubsub.py", line 136, in _subscribe_worker
+    protocol.datagram_received(buffer[start:start + length], from_addr)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\messages.py", line 212, in datagram_received
+    self.on_datagram(typ, data, HEADER_SIZE, length)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\base_auto_trader.py", line 72, in on_datagram
+    self.on_trade_ticks_message(inst, seq, *TICKS_PART.iter_unpack(data[TRADE_TICKS_HEADER_SIZE:]))
+TypeError: on_trade_ticks_message() takes 3 positional arguments but 7 were given
+2023-03-11 14:43:29,266 [INFO   ] [APP] closing event loop
+2023-03-11 14:43:29,266 [INFO   ] [CONNECTION] fd=940 connection lost
+2023-03-11 14:43:29,266 [ERROR  ] [asyncio] Exception in callback _SelectorSocketTransport._call_connection_lost(None)
+handle: <Handle _SelectorSocketTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\selector_events.py", line 970, in _call_connection_lost
+    super()._call_connection_lost(exc)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\selector_events.py", line 728, in _call_connection_lost
+    self._protocol.connection_lost(exc)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\base_auto_trader.py", line 59, in connection_lost
+    Subscription.close(self)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\messages.py", line 186, in close
+    self._receiver_transport.close()
+AttributeError: 'NoneType' object has no attribute 'close'
+2023-03-11 14:47:13,531 [INFO   ] [APP] testtrader started with arguments={rtg.py, run, .\testtrader.py, .\autotrader.py}
+2023-03-11 14:47:13,531 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"Type":"mmap","Name":"info.dat"},"TeamName":"TraderTwo","Secret":"secret"}
+2023-03-11 14:47:13,531 [INFO   ] [CONNECTION] fd=948 connection established: peer=127.0.0.1:12345
+2023-03-11 14:47:19,407 [ERROR  ] [RECEIVER] connection lost:
+Traceback (most recent call last):
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\pubsub.py", line 136, in _subscribe_worker
+    protocol.datagram_received(buffer[start:start + length], from_addr)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\messages.py", line 212, in datagram_received
+    self.on_datagram(typ, data, HEADER_SIZE, length)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\base_auto_trader.py", line 72, in on_datagram
+    self.on_trade_ticks_message(inst, seq, *TICKS_PART.iter_unpack(data[TRADE_TICKS_HEADER_SIZE:]))
+TypeError: on_trade_ticks_message() takes 3 positional arguments but 7 were given
+2023-03-11 14:47:19,413 [INFO   ] [APP] closing event loop
+2023-03-11 14:47:19,413 [INFO   ] [CONNECTION] fd=948 connection lost
+2023-03-11 14:47:19,414 [ERROR  ] [asyncio] Exception in callback _SelectorSocketTransport._call_connection_lost(None)
+handle: <Handle _SelectorSocketTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\selector_events.py", line 970, in _call_connection_lost
+    super()._call_connection_lost(exc)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\selector_events.py", line 728, in _call_connection_lost
+    self._protocol.connection_lost(exc)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\base_auto_trader.py", line 59, in connection_lost
+    Subscription.close(self)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\messages.py", line 186, in close
+    self._receiver_transport.close()
+AttributeError: 'NoneType' object has no attribute 'close'
+2023-03-11 14:53:30,770 [INFO   ] [APP] testtrader started with arguments={rtg.py, run, .\testtrader.py, .\autotrader.py, .\autotrader1.py}
+2023-03-11 14:53:30,771 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"Type":"mmap","Name":"info.dat"},"TeamName":"TraderTwo","Secret":"secret"}
+2023-03-11 14:53:30,784 [INFO   ] [CONNECTION] fd=1448 connection established: peer=127.0.0.1:12345
+2023-03-11 14:53:36,836 [ERROR  ] [RECEIVER] connection lost:
+Traceback (most recent call last):
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\pubsub.py", line 136, in _subscribe_worker
+    protocol.datagram_received(buffer[start:start + length], from_addr)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\messages.py", line 212, in datagram_received
+    self.on_datagram(typ, data, HEADER_SIZE, length)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\base_auto_trader.py", line 72, in on_datagram
+    self.on_trade_ticks_message(inst, seq, *TICKS_PART.iter_unpack(data[TRADE_TICKS_HEADER_SIZE:]))
+TypeError: on_trade_ticks_message() takes 3 positional arguments but 7 were given
+2023-03-11 14:53:36,840 [INFO   ] [APP] closing event loop
+2023-03-11 14:53:36,840 [INFO   ] [CONNECTION] fd=1448 connection lost
+2023-03-11 14:53:36,841 [ERROR  ] [asyncio] Exception in callback _SelectorSocketTransport._call_connection_lost(None)
+handle: <Handle _SelectorSocketTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\selector_events.py", line 970, in _call_connection_lost
+    super()._call_connection_lost(exc)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\selector_events.py", line 728, in _call_connection_lost
+    self._protocol.connection_lost(exc)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\base_auto_trader.py", line 59, in connection_lost
+    Subscription.close(self)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\messages.py", line 186, in close
+    self._receiver_transport.close()
+AttributeError: 'NoneType' object has no attribute 'close'
+2023-03-11 14:53:57,936 [INFO   ] [APP] testtrader started with arguments={rtg.py, run, .\testtrader.py, .\autotrader1.py}
+2023-03-11 14:53:57,936 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"Type":"mmap","Name":"info.dat"},"TeamName":"TraderTwo","Secret":"secret"}
+2023-03-11 14:53:57,952 [INFO   ] [CONNECTION] fd=1476 connection established: peer=127.0.0.1:12345
+2023-03-11 14:56:41,563 [INFO   ] [APP] testtrader started with arguments={rtg.py, run, .\testtrader.py, .\autotrader.py, .\autotrader1.py}
+2023-03-11 14:56:41,563 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"Type":"mmap","Name":"info.dat"},"TeamName":"TraderTwo","Secret":"secret"}
+2023-03-11 14:56:41,579 [INFO   ] [CONNECTION] fd=1352 connection established: peer=127.0.0.1:12345
+2023-03-11 14:56:48,125 [ERROR  ] [RECEIVER] connection lost:
+Traceback (most recent call last):
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\pubsub.py", line 136, in _subscribe_worker
+    protocol.datagram_received(buffer[start:start + length], from_addr)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\messages.py", line 212, in datagram_received
+    self.on_datagram(typ, data, HEADER_SIZE, length)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\base_auto_trader.py", line 72, in on_datagram
+    self.on_trade_ticks_message(inst, seq, *TICKS_PART.iter_unpack(data[TRADE_TICKS_HEADER_SIZE:]))
+TypeError: on_trade_ticks_message() takes 3 positional arguments but 7 were given
+2023-03-11 14:56:48,125 [INFO   ] [APP] closing event loop
+2023-03-11 14:56:48,125 [INFO   ] [CONNECTION] fd=1352 connection lost
+2023-03-11 14:56:48,125 [ERROR  ] [asyncio] Exception in callback _SelectorSocketTransport._call_connection_lost(None)
+handle: <Handle _SelectorSocketTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\selector_events.py", line 970, in _call_connection_lost
+    super()._call_connection_lost(exc)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\selector_events.py", line 728, in _call_connection_lost
+    self._protocol.connection_lost(exc)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\base_auto_trader.py", line 59, in connection_lost
+    Subscription.close(self)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\messages.py", line 186, in close
+    self._receiver_transport.close()
+AttributeError: 'NoneType' object has no attribute 'close'
+2023-03-11 15:14:53,009 [INFO   ] [APP] testtrader started with arguments={rtg.py, run, .\testtrader.py, .\autotrader.py, .\autotrader1.py}
+2023-03-11 15:14:53,010 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"Type":"mmap","Name":"info.dat"},"TeamName":"TraderTwo","Secret":"secret"}
+2023-03-11 15:14:53,021 [INFO   ] [CONNECTION] fd=1444 connection established: peer=127.0.0.1:12345
+2023-03-11 15:14:58,311 [ERROR  ] [RECEIVER] connection lost:
+Traceback (most recent call last):
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\pubsub.py", line 136, in _subscribe_worker
+    protocol.datagram_received(buffer[start:start + length], from_addr)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\messages.py", line 212, in datagram_received
+    self.on_datagram(typ, data, HEADER_SIZE, length)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\base_auto_trader.py", line 72, in on_datagram
+    self.on_trade_ticks_message(inst, seq, *TICKS_PART.iter_unpack(data[TRADE_TICKS_HEADER_SIZE:]))
+TypeError: on_trade_ticks_message() takes 3 positional arguments but 7 were given
+2023-03-11 15:14:58,315 [INFO   ] [APP] closing event loop
+2023-03-11 15:14:58,315 [INFO   ] [CONNECTION] fd=1444 connection lost
+2023-03-11 15:14:58,316 [ERROR  ] [asyncio] Exception in callback _SelectorSocketTransport._call_connection_lost(None)
+handle: <Handle _SelectorSocketTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\selector_events.py", line 970, in _call_connection_lost
+    super()._call_connection_lost(exc)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\selector_events.py", line 728, in _call_connection_lost
+    self._protocol.connection_lost(exc)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\base_auto_trader.py", line 59, in connection_lost
+    Subscription.close(self)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\messages.py", line 186, in close
+    self._receiver_transport.close()
+AttributeError: 'NoneType' object has no attribute 'close'
+2023-03-11 15:52:43,071 [INFO   ] [APP] testtrader started with arguments={rtg.py, run, .\testtrader.py, .\autotrader.py, .\autotrader1.py}
+2023-03-11 15:52:43,071 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"Type":"mmap","Name":"info.dat"},"TeamName":"TraderTwo","Secret":"secret"}
+2023-03-11 15:52:43,087 [INFO   ] [CONNECTION] fd=1192 connection established: peer=127.0.0.1:12345
+2023-03-11 15:52:48,880 [ERROR  ] [RECEIVER] connection lost:
+Traceback (most recent call last):
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\pubsub.py", line 136, in _subscribe_worker
+    protocol.datagram_received(buffer[start:start + length], from_addr)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\messages.py", line 212, in datagram_received
+    self.on_datagram(typ, data, HEADER_SIZE, length)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\base_auto_trader.py", line 72, in on_datagram
+    self.on_trade_ticks_message(inst, seq, *TICKS_PART.iter_unpack(data[TRADE_TICKS_HEADER_SIZE:]))
+TypeError: on_trade_ticks_message() takes 3 positional arguments but 7 were given
+2023-03-11 15:52:48,887 [INFO   ] [APP] closing event loop
+2023-03-11 15:52:48,887 [INFO   ] [CONNECTION] fd=1192 connection lost
+2023-03-11 15:52:48,888 [ERROR  ] [asyncio] Exception in callback _SelectorSocketTransport._call_connection_lost(None)
+handle: <Handle _SelectorSocketTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\selector_events.py", line 970, in _call_connection_lost
+    super()._call_connection_lost(exc)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\selector_events.py", line 728, in _call_connection_lost
+    self._protocol.connection_lost(exc)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\base_auto_trader.py", line 59, in connection_lost
+    Subscription.close(self)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\messages.py", line 186, in close
+    self._receiver_transport.close()
+AttributeError: 'NoneType' object has no attribute 'close'
+2023-03-12 20:29:27,436 [INFO   ] [APP] testtrader started with arguments={rtg.py, run, .\testtrader.py, .\autotrader.py, .\autotrader1.py}
+2023-03-12 20:29:27,437 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"Type":"mmap","Name":"info.dat"},"TeamName":"TraderTwo","Secret":"secret"}
+2023-03-12 20:29:27,472 [INFO   ] [CONNECTION] fd=1476 connection established: peer=127.0.0.1:12345
+2023-03-12 20:29:33,018 [ERROR  ] [RECEIVER] connection lost:
+Traceback (most recent call last):
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\pubsub.py", line 136, in _subscribe_worker
+    protocol.datagram_received(buffer[start:start + length], from_addr)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\messages.py", line 212, in datagram_received
+    self.on_datagram(typ, data, HEADER_SIZE, length)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\base_auto_trader.py", line 72, in on_datagram
+    self.on_trade_ticks_message(inst, seq, *TICKS_PART.iter_unpack(data[TRADE_TICKS_HEADER_SIZE:]))
+TypeError: on_trade_ticks_message() takes 3 positional arguments but 7 were given
+2023-03-12 20:29:33,025 [INFO   ] [APP] closing event loop
+2023-03-12 20:29:33,025 [INFO   ] [CONNECTION] fd=1476 connection lost
+2023-03-12 20:29:33,025 [ERROR  ] [asyncio] Exception in callback _SelectorSocketTransport._call_connection_lost(None)
+handle: <Handle _SelectorSocketTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\selector_events.py", line 970, in _call_connection_lost
+    super()._call_connection_lost(exc)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\selector_events.py", line 728, in _call_connection_lost
+    self._protocol.connection_lost(exc)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\base_auto_trader.py", line 59, in connection_lost
+    Subscription.close(self)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\messages.py", line 186, in close
+    self._receiver_transport.close()
+AttributeError: 'NoneType' object has no attribute 'close'
+2023-03-12 20:30:33,809 [INFO   ] [APP] testtrader started with arguments={rtg.py, run, .\testtrader.py, .\autotrader.py, .\autotrader1.py}
+2023-03-12 20:30:33,809 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"Type":"mmap","Name":"info.dat"},"TeamName":"TraderTwo","Secret":"secret"}
+2023-03-12 20:30:33,821 [INFO   ] [CONNECTION] fd=1480 connection established: peer=127.0.0.1:12345
+2023-03-12 20:30:39,520 [ERROR  ] [RECEIVER] connection lost:
+Traceback (most recent call last):
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\pubsub.py", line 136, in _subscribe_worker
+    protocol.datagram_received(buffer[start:start + length], from_addr)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\messages.py", line 212, in datagram_received
+    self.on_datagram(typ, data, HEADER_SIZE, length)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\base_auto_trader.py", line 72, in on_datagram
+    self.on_trade_ticks_message(inst, seq, *TICKS_PART.iter_unpack(data[TRADE_TICKS_HEADER_SIZE:]))
+TypeError: on_trade_ticks_message() takes 3 positional arguments but 7 were given
+2023-03-12 20:30:39,523 [INFO   ] [APP] closing event loop
+2023-03-12 20:30:39,523 [INFO   ] [CONNECTION] fd=1480 connection lost
+2023-03-12 20:30:39,524 [ERROR  ] [asyncio] Exception in callback _SelectorSocketTransport._call_connection_lost(None)
+handle: <Handle _SelectorSocketTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\selector_events.py", line 970, in _call_connection_lost
+    super()._call_connection_lost(exc)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\selector_events.py", line 728, in _call_connection_lost
+    self._protocol.connection_lost(exc)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\base_auto_trader.py", line 59, in connection_lost
+    Subscription.close(self)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\messages.py", line 186, in close
+    self._receiver_transport.close()
+AttributeError: 'NoneType' object has no attribute 'close'
+2023-03-12 20:33:06,498 [INFO   ] [APP] testtrader started with arguments={rtg.py, run, .\testtrader.py, .\autotrader.py, .\autotrader1.py}
+2023-03-12 20:33:06,499 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"Type":"mmap","Name":"info.dat"},"TeamName":"TraderTwo","Secret":"secret"}
+2023-03-12 20:33:06,512 [INFO   ] [CONNECTION] fd=1436 connection established: peer=127.0.0.1:12345
+2023-03-12 20:33:12,090 [ERROR  ] [RECEIVER] connection lost:
+Traceback (most recent call last):
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\pubsub.py", line 136, in _subscribe_worker
+    protocol.datagram_received(buffer[start:start + length], from_addr)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\messages.py", line 212, in datagram_received
+    self.on_datagram(typ, data, HEADER_SIZE, length)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\base_auto_trader.py", line 72, in on_datagram
+    self.on_trade_ticks_message(inst, seq, *TICKS_PART.iter_unpack(data[TRADE_TICKS_HEADER_SIZE:]))
+TypeError: on_trade_ticks_message() takes 3 positional arguments but 7 were given
+2023-03-12 20:33:12,093 [INFO   ] [APP] closing event loop
+2023-03-12 20:33:12,093 [INFO   ] [CONNECTION] fd=1436 connection lost
+2023-03-12 20:33:12,094 [ERROR  ] [asyncio] Exception in callback _SelectorSocketTransport._call_connection_lost(None)
+handle: <Handle _SelectorSocketTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\selector_events.py", line 970, in _call_connection_lost
+    super()._call_connection_lost(exc)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\selector_events.py", line 728, in _call_connection_lost
+    self._protocol.connection_lost(exc)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\base_auto_trader.py", line 59, in connection_lost
+    Subscription.close(self)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\messages.py", line 186, in close
+    self._receiver_transport.close()
+AttributeError: 'NoneType' object has no attribute 'close'
+2023-03-12 20:33:26,766 [INFO   ] [APP] testtrader started with arguments={rtg.py, run, .\testtrader.py, .\autotrader.py, .\autotrader1.py}
+2023-03-12 20:33:26,766 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"Type":"mmap","Name":"info.dat"},"TeamName":"TraderTwo","Secret":"secret"}
+2023-03-12 20:33:26,778 [INFO   ] [CONNECTION] fd=1336 connection established: peer=127.0.0.1:12345
+2023-03-12 20:33:26,781 [ERROR  ] [RECEIVER] connection lost:
+Traceback (most recent call last):
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\pubsub.py", line 136, in _subscribe_worker
+    protocol.datagram_received(buffer[start:start + length], from_addr)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\messages.py", line 212, in datagram_received
+    self.on_datagram(typ, data, HEADER_SIZE, length)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\base_auto_trader.py", line 72, in on_datagram
+    self.on_trade_ticks_message(inst, seq, *TICKS_PART.iter_unpack(data[TRADE_TICKS_HEADER_SIZE:]))
+TypeError: on_trade_ticks_message() takes 3 positional arguments but 7 were given
+2023-03-12 20:33:26,783 [INFO   ] [APP] closing event loop
+2023-03-12 20:33:26,784 [INFO   ] [CONNECTION] fd=1336 connection lost
+2023-03-12 20:33:26,784 [ERROR  ] [asyncio] Exception in callback _SelectorSocketTransport._call_connection_lost(None)
+handle: <Handle _SelectorSocketTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\selector_events.py", line 970, in _call_connection_lost
+    super()._call_connection_lost(exc)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\selector_events.py", line 728, in _call_connection_lost
+    self._protocol.connection_lost(exc)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\base_auto_trader.py", line 59, in connection_lost
+    Subscription.close(self)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\messages.py", line 186, in close
+    self._receiver_transport.close()
+AttributeError: 'NoneType' object has no attribute 'close'
+2023-03-12 20:34:29,050 [INFO   ] [APP] testtrader started with arguments={rtg.py, run, .\testtrader.py, .\autotrader.py, .\autotrader1.py}
+2023-03-12 20:34:29,052 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"Type":"mmap","Name":"info.dat"},"TeamName":"TraderTwo","Secret":"secret"}
+2023-03-12 20:34:29,065 [INFO   ] [CONNECTION] fd=1424 connection established: peer=127.0.0.1:12345
+2023-03-12 20:34:29,069 [ERROR  ] [CONNECTION] fd=1424 connection lost:
+Traceback (most recent call last):
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\pubsub.py", line 136, in _subscribe_worker
+    protocol.datagram_received(buffer[start:start + length], from_addr)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\messages.py", line 212, in datagram_received
+    self.on_datagram(typ, data, HEADER_SIZE, length)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\base_auto_trader.py", line 72, in on_datagram
+    self.on_trade_ticks_message(inst, seq, *TICKS_PART.iter_unpack(data[TRADE_TICKS_HEADER_SIZE:]))
+TypeError: on_trade_ticks_message() takes 3 positional arguments but 7 were given
+2023-03-12 20:34:29,074 [INFO   ] [APP] closing event loop
+2023-03-12 20:34:29,074 [ERROR  ] [RECEIVER] connection lost:
+Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\selector_events.py", line 910, in write
+    n = self._sock.send(data)
+ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+2023-03-12 20:37:07,730 [INFO   ] [APP] testtrader started with arguments={rtg.py, run, .\testtrader.py, .\autotrader.py, .\autotrader1.py}
+2023-03-12 20:37:07,731 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"Type":"mmap","Name":"info.dat"},"TeamName":"TraderTwo","Secret":"secret"}
+2023-03-12 20:37:07,743 [INFO   ] [CONNECTION] fd=1080 connection established: peer=127.0.0.1:12345
+2023-03-12 20:37:13,464 [ERROR  ] [RECEIVER] connection lost:
+Traceback (most recent call last):
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\pubsub.py", line 136, in _subscribe_worker
+    protocol.datagram_received(buffer[start:start + length], from_addr)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\messages.py", line 212, in datagram_received
+    self.on_datagram(typ, data, HEADER_SIZE, length)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\base_auto_trader.py", line 72, in on_datagram
+    self.on_trade_ticks_message(inst, seq, *TICKS_PART.iter_unpack(data[TRADE_TICKS_HEADER_SIZE:]))
+TypeError: on_trade_ticks_message() takes 3 positional arguments but 7 were given
+2023-03-12 20:37:13,468 [INFO   ] [APP] closing event loop
+2023-03-12 20:37:13,469 [INFO   ] [CONNECTION] fd=1080 connection lost
+2023-03-12 20:37:13,469 [ERROR  ] [asyncio] Exception in callback _SelectorSocketTransport._call_connection_lost(None)
+handle: <Handle _SelectorSocketTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\selector_events.py", line 970, in _call_connection_lost
+    super()._call_connection_lost(exc)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\selector_events.py", line 728, in _call_connection_lost
+    self._protocol.connection_lost(exc)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\base_auto_trader.py", line 59, in connection_lost
+    Subscription.close(self)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\messages.py", line 186, in close
+    self._receiver_transport.close()
+AttributeError: 'NoneType' object has no attribute 'close'
+2023-03-12 20:44:48,365 [INFO   ] [APP] testtrader started with arguments={rtg.py, run, .\testtrader.py, .\autotrader.py, .\autotrader1.py}
+2023-03-12 20:44:48,367 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"Type":"mmap","Name":"info.dat"},"TeamName":"TraderTwo","Secret":"secret"}
+2023-03-12 20:44:48,387 [INFO   ] [CONNECTION] fd=1372 connection established: peer=127.0.0.1:12345
+2023-03-12 20:44:53,850 [ERROR  ] [RECEIVER] connection lost:
+Traceback (most recent call last):
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\pubsub.py", line 136, in _subscribe_worker
+    protocol.datagram_received(buffer[start:start + length], from_addr)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\messages.py", line 212, in datagram_received
+    self.on_datagram(typ, data, HEADER_SIZE, length)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\base_auto_trader.py", line 72, in on_datagram
+    self.on_trade_ticks_message(inst, seq, *TICKS_PART.iter_unpack(data[TRADE_TICKS_HEADER_SIZE:]))
+TypeError: on_trade_ticks_message() takes 3 positional arguments but 7 were given
+2023-03-12 20:44:53,860 [INFO   ] [APP] closing event loop
+2023-03-12 20:44:53,861 [INFO   ] [CONNECTION] fd=1372 connection lost
+2023-03-12 20:44:53,862 [ERROR  ] [asyncio] Exception in callback _SelectorSocketTransport._call_connection_lost(None)
+handle: <Handle _SelectorSocketTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\selector_events.py", line 970, in _call_connection_lost
+    super()._call_connection_lost(exc)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\selector_events.py", line 728, in _call_connection_lost
+    self._protocol.connection_lost(exc)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\base_auto_trader.py", line 59, in connection_lost
+    Subscription.close(self)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\messages.py", line 186, in close
+    self._receiver_transport.close()
+AttributeError: 'NoneType' object has no attribute 'close'
+2023-03-12 20:46:12,018 [INFO   ] [APP] testtrader started with arguments={rtg.py, run, .\testtrader.py, .\autotrader.py, .\autotrader1.py}
+2023-03-12 20:46:12,018 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"Type":"mmap","Name":"info.dat"},"TeamName":"TraderTwo","Secret":"secret"}
+2023-03-12 20:46:12,030 [INFO   ] [CONNECTION] fd=1468 connection established: peer=127.0.0.1:12345
+2023-03-12 20:46:12,033 [ERROR  ] [RECEIVER] connection lost:
+Traceback (most recent call last):
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\pubsub.py", line 136, in _subscribe_worker
+    protocol.datagram_received(buffer[start:start + length], from_addr)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\messages.py", line 212, in datagram_received
+    self.on_datagram(typ, data, HEADER_SIZE, length)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\base_auto_trader.py", line 72, in on_datagram
+    self.on_trade_ticks_message(inst, seq, *TICKS_PART.iter_unpack(data[TRADE_TICKS_HEADER_SIZE:]))
+TypeError: on_trade_ticks_message() takes 3 positional arguments but 7 were given
+2023-03-12 20:46:12,037 [INFO   ] [APP] closing event loop
+2023-03-12 20:46:12,037 [INFO   ] [CONNECTION] fd=1468 connection lost
+2023-03-12 20:46:12,038 [ERROR  ] [asyncio] Exception in callback _SelectorSocketTransport._call_connection_lost(None)
+handle: <Handle _SelectorSocketTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\selector_events.py", line 970, in _call_connection_lost
+    super()._call_connection_lost(exc)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\selector_events.py", line 728, in _call_connection_lost
+    self._protocol.connection_lost(exc)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\base_auto_trader.py", line 59, in connection_lost
+    Subscription.close(self)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\messages.py", line 186, in close
+    self._receiver_transport.close()
+AttributeError: 'NoneType' object has no attribute 'close'
+2023-03-12 21:13:45,819 [INFO   ] [APP] testtrader started with arguments={rtg.py, run, .\testtrader.py, .\autotrader.py, .\autotrader1.py}
+2023-03-12 21:13:45,821 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"Type":"mmap","Name":"info.dat"},"TeamName":"TraderTwo","Secret":"secret"}
+2023-03-12 21:13:45,834 [INFO   ] [CONNECTION] fd=1404 connection established: peer=127.0.0.1:12345
+2023-03-12 21:13:51,263 [ERROR  ] [RECEIVER] connection lost:
+Traceback (most recent call last):
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\pubsub.py", line 136, in _subscribe_worker
+    protocol.datagram_received(buffer[start:start + length], from_addr)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\messages.py", line 212, in datagram_received
+    self.on_datagram(typ, data, HEADER_SIZE, length)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\base_auto_trader.py", line 72, in on_datagram
+    self.on_trade_ticks_message(inst, seq, *TICKS_PART.iter_unpack(data[TRADE_TICKS_HEADER_SIZE:]))
+TypeError: on_trade_ticks_message() takes 3 positional arguments but 7 were given
+2023-03-12 21:13:51,269 [INFO   ] [APP] closing event loop
+2023-03-12 21:13:51,270 [INFO   ] [CONNECTION] fd=1404 connection lost
+2023-03-12 21:13:51,271 [ERROR  ] [asyncio] Exception in callback _SelectorSocketTransport._call_connection_lost(None)
+handle: <Handle _SelectorSocketTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\selector_events.py", line 970, in _call_connection_lost
+    super()._call_connection_lost(exc)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\selector_events.py", line 728, in _call_connection_lost
+    self._protocol.connection_lost(exc)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\base_auto_trader.py", line 59, in connection_lost
+    Subscription.close(self)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\messages.py", line 186, in close
+    self._receiver_transport.close()
+AttributeError: 'NoneType' object has no attribute 'close'
+2023-03-12 21:49:48,294 [INFO   ] [APP] testtrader started with arguments={rtg.py, run, .\testtrader.py, .\autotrader.py, .\autotrader1.py}
+2023-03-12 21:49:48,295 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"Type":"mmap","Name":"info.dat"},"TeamName":"TraderTwo","Secret":"secret"}
+2023-03-12 21:49:48,309 [INFO   ] [CONNECTION] fd=1392 connection established: peer=127.0.0.1:12345
+2023-03-12 21:49:53,881 [ERROR  ] [RECEIVER] connection lost:
+Traceback (most recent call last):
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\pubsub.py", line 136, in _subscribe_worker
+    protocol.datagram_received(buffer[start:start + length], from_addr)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\messages.py", line 212, in datagram_received
+    self.on_datagram(typ, data, HEADER_SIZE, length)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\base_auto_trader.py", line 72, in on_datagram
+    self.on_trade_ticks_message(inst, seq, *TICKS_PART.iter_unpack(data[TRADE_TICKS_HEADER_SIZE:]))
+TypeError: on_trade_ticks_message() takes 3 positional arguments but 7 were given
+2023-03-12 21:49:53,886 [INFO   ] [APP] closing event loop
+2023-03-12 21:49:53,887 [INFO   ] [CONNECTION] fd=1392 connection lost
+2023-03-12 21:49:53,887 [ERROR  ] [asyncio] Exception in callback _SelectorSocketTransport._call_connection_lost(None)
+handle: <Handle _SelectorSocketTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\selector_events.py", line 970, in _call_connection_lost
+    super()._call_connection_lost(exc)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\selector_events.py", line 728, in _call_connection_lost
+    self._protocol.connection_lost(exc)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\base_auto_trader.py", line 59, in connection_lost
+    Subscription.close(self)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\messages.py", line 186, in close
+    self._receiver_transport.close()
+AttributeError: 'NoneType' object has no attribute 'close'
+2023-03-12 22:06:34,171 [INFO   ] [APP] testtrader started with arguments={rtg.py, run, .\testtrader.py, .\autotrader.py, .\autotrader1.py}
+2023-03-12 22:06:34,176 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"Type":"mmap","Name":"info.dat"},"TeamName":"TraderTwo","Secret":"secret"}
+2023-03-12 22:06:34,192 [INFO   ] [CONNECTION] fd=1236 connection established: peer=127.0.0.1:12345
+2023-03-12 22:06:39,354 [ERROR  ] [RECEIVER] connection lost:
+Traceback (most recent call last):
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\pubsub.py", line 136, in _subscribe_worker
+    protocol.datagram_received(buffer[start:start + length], from_addr)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\messages.py", line 212, in datagram_received
+    self.on_datagram(typ, data, HEADER_SIZE, length)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\base_auto_trader.py", line 72, in on_datagram
+    self.on_trade_ticks_message(inst, seq, *TICKS_PART.iter_unpack(data[TRADE_TICKS_HEADER_SIZE:]))
+TypeError: on_trade_ticks_message() takes 3 positional arguments but 7 were given
+2023-03-12 22:06:39,358 [INFO   ] [APP] closing event loop
+2023-03-12 22:06:39,358 [INFO   ] [CONNECTION] fd=1236 connection lost
+2023-03-12 22:06:39,359 [ERROR  ] [asyncio] Exception in callback _SelectorSocketTransport._call_connection_lost(None)
+handle: <Handle _SelectorSocketTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\selector_events.py", line 970, in _call_connection_lost
+    super()._call_connection_lost(exc)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\selector_events.py", line 728, in _call_connection_lost
+    self._protocol.connection_lost(exc)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\base_auto_trader.py", line 59, in connection_lost
+    Subscription.close(self)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\messages.py", line 186, in close
+    self._receiver_transport.close()
+AttributeError: 'NoneType' object has no attribute 'close'
+2023-03-12 22:07:14,804 [INFO   ] [APP] testtrader started with arguments={rtg.py, run, .\testtrader.py, .\autotrader.py, .\autotrader1.py}
+2023-03-12 22:07:14,804 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"Type":"mmap","Name":"info.dat"},"TeamName":"TraderTwo","Secret":"secret"}
+2023-03-12 22:07:14,816 [INFO   ] [CONNECTION] fd=1240 connection established: peer=127.0.0.1:12345
+2023-03-12 22:07:19,708 [ERROR  ] [RECEIVER] connection lost:
+Traceback (most recent call last):
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\pubsub.py", line 136, in _subscribe_worker
+    protocol.datagram_received(buffer[start:start + length], from_addr)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\messages.py", line 212, in datagram_received
+    self.on_datagram(typ, data, HEADER_SIZE, length)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\base_auto_trader.py", line 72, in on_datagram
+    self.on_trade_ticks_message(inst, seq, *TICKS_PART.iter_unpack(data[TRADE_TICKS_HEADER_SIZE:]))
+TypeError: on_trade_ticks_message() takes 3 positional arguments but 7 were given
+2023-03-12 22:07:19,711 [INFO   ] [APP] closing event loop
+2023-03-12 22:07:19,711 [INFO   ] [CONNECTION] fd=1240 connection lost
+2023-03-12 22:07:19,712 [ERROR  ] [asyncio] Exception in callback _SelectorSocketTransport._call_connection_lost(None)
+handle: <Handle _SelectorSocketTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\selector_events.py", line 970, in _call_connection_lost
+    super()._call_connection_lost(exc)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\selector_events.py", line 728, in _call_connection_lost
+    self._protocol.connection_lost(exc)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\base_auto_trader.py", line 59, in connection_lost
+    Subscription.close(self)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\messages.py", line 186, in close
+    self._receiver_transport.close()
+AttributeError: 'NoneType' object has no attribute 'close'
+2023-03-12 22:13:55,737 [INFO   ] [APP] testtrader started with arguments={rtg.py, run, .\testtrader.py, .\autotrader.py, .\autotrader1.py}
+2023-03-12 22:13:55,737 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"Type":"mmap","Name":"info.dat"},"TeamName":"TraderTwo","Secret":"secret"}
+2023-03-12 22:13:55,752 [INFO   ] [CONNECTION] fd=1420 connection established: peer=127.0.0.1:12345
+2023-03-12 22:14:00,756 [ERROR  ] [RECEIVER] connection lost:
+Traceback (most recent call last):
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\pubsub.py", line 136, in _subscribe_worker
+    protocol.datagram_received(buffer[start:start + length], from_addr)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\messages.py", line 212, in datagram_received
+    self.on_datagram(typ, data, HEADER_SIZE, length)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\base_auto_trader.py", line 72, in on_datagram
+    self.on_trade_ticks_message(inst, seq, *TICKS_PART.iter_unpack(data[TRADE_TICKS_HEADER_SIZE:]))
+TypeError: on_trade_ticks_message() takes 3 positional arguments but 7 were given
+2023-03-12 22:14:00,756 [INFO   ] [APP] closing event loop
+2023-03-12 22:14:00,756 [INFO   ] [CONNECTION] fd=1420 connection lost
+2023-03-12 22:14:00,756 [ERROR  ] [asyncio] Exception in callback _SelectorSocketTransport._call_connection_lost(None)
+handle: <Handle _SelectorSocketTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\selector_events.py", line 970, in _call_connection_lost
+    super()._call_connection_lost(exc)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\selector_events.py", line 728, in _call_connection_lost
+    self._protocol.connection_lost(exc)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\base_auto_trader.py", line 59, in connection_lost
+    Subscription.close(self)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\messages.py", line 186, in close
+    self._receiver_transport.close()
+AttributeError: 'NoneType' object has no attribute 'close'
+2023-03-12 22:14:35,375 [INFO   ] [APP] testtrader started with arguments={rtg.py, run, .\testtrader.py, .\autotrader.py, .\autotrader1.py}
+2023-03-12 22:14:35,375 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"Type":"mmap","Name":"info.dat"},"TeamName":"TraderTwo","Secret":"secret"}
+2023-03-12 22:14:35,391 [INFO   ] [CONNECTION] fd=1244 connection established: peer=127.0.0.1:12345
+2023-03-12 22:14:40,413 [ERROR  ] [RECEIVER] connection lost:
+Traceback (most recent call last):
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\pubsub.py", line 136, in _subscribe_worker
+    protocol.datagram_received(buffer[start:start + length], from_addr)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\messages.py", line 212, in datagram_received
+    self.on_datagram(typ, data, HEADER_SIZE, length)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\base_auto_trader.py", line 72, in on_datagram
+    self.on_trade_ticks_message(inst, seq, *TICKS_PART.iter_unpack(data[TRADE_TICKS_HEADER_SIZE:]))
+TypeError: on_trade_ticks_message() takes 3 positional arguments but 7 were given
+2023-03-12 22:14:40,413 [INFO   ] [APP] closing event loop
+2023-03-12 22:14:40,413 [INFO   ] [CONNECTION] fd=1244 connection lost
+2023-03-12 22:14:40,413 [ERROR  ] [asyncio] Exception in callback _SelectorSocketTransport._call_connection_lost(None)
+handle: <Handle _SelectorSocketTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\selector_events.py", line 970, in _call_connection_lost
+    super()._call_connection_lost(exc)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\selector_events.py", line 728, in _call_connection_lost
+    self._protocol.connection_lost(exc)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\base_auto_trader.py", line 59, in connection_lost
+    Subscription.close(self)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\messages.py", line 186, in close
+    self._receiver_transport.close()
+AttributeError: 'NoneType' object has no attribute 'close'
+2023-03-12 22:15:21,991 [INFO   ] [APP] testtrader started with arguments={rtg.py, run, .\testtrader.py, .\autotrader.py, .\autotrader1.py}
+2023-03-12 22:15:21,992 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"Type":"mmap","Name":"info.dat"},"TeamName":"TraderTwo","Secret":"secret"}
+2023-03-12 22:15:22,003 [INFO   ] [CONNECTION] fd=1296 connection established: peer=127.0.0.1:12345
+2023-03-12 22:15:27,341 [ERROR  ] [RECEIVER] connection lost:
+Traceback (most recent call last):
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\pubsub.py", line 136, in _subscribe_worker
+    protocol.datagram_received(buffer[start:start + length], from_addr)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\messages.py", line 212, in datagram_received
+    self.on_datagram(typ, data, HEADER_SIZE, length)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\base_auto_trader.py", line 72, in on_datagram
+    self.on_trade_ticks_message(inst, seq, *TICKS_PART.iter_unpack(data[TRADE_TICKS_HEADER_SIZE:]))
+TypeError: on_trade_ticks_message() takes 3 positional arguments but 7 were given
+2023-03-12 22:15:27,341 [INFO   ] [APP] closing event loop
+2023-03-12 22:15:27,355 [INFO   ] [CONNECTION] fd=1296 connection lost
+2023-03-12 22:15:27,355 [ERROR  ] [asyncio] Exception in callback _SelectorSocketTransport._call_connection_lost(None)
+handle: <Handle _SelectorSocketTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\selector_events.py", line 970, in _call_connection_lost
+    super()._call_connection_lost(exc)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\selector_events.py", line 728, in _call_connection_lost
+    self._protocol.connection_lost(exc)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\base_auto_trader.py", line 59, in connection_lost
+    Subscription.close(self)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\messages.py", line 186, in close
+    self._receiver_transport.close()
+AttributeError: 'NoneType' object has no attribute 'close'
+2023-03-12 22:16:15,011 [INFO   ] [APP] testtrader started with arguments={rtg.py, run, .\testtrader.py, .\autotrader.py, .\autotrader1.py}
+2023-03-12 22:16:15,011 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"Type":"mmap","Name":"info.dat"},"TeamName":"TraderTwo","Secret":"secret"}
+2023-03-12 22:16:15,023 [INFO   ] [CONNECTION] fd=1064 connection established: peer=127.0.0.1:12345
+2023-03-12 22:16:20,338 [ERROR  ] [RECEIVER] connection lost:
+Traceback (most recent call last):
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\pubsub.py", line 136, in _subscribe_worker
+    protocol.datagram_received(buffer[start:start + length], from_addr)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\messages.py", line 212, in datagram_received
+    self.on_datagram(typ, data, HEADER_SIZE, length)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\base_auto_trader.py", line 72, in on_datagram
+    self.on_trade_ticks_message(inst, seq, *TICKS_PART.iter_unpack(data[TRADE_TICKS_HEADER_SIZE:]))
+TypeError: on_trade_ticks_message() takes 3 positional arguments but 7 were given
+2023-03-12 22:16:20,340 [INFO   ] [APP] closing event loop
+2023-03-12 22:16:20,341 [INFO   ] [CONNECTION] fd=1064 connection lost
+2023-03-12 22:16:20,341 [ERROR  ] [asyncio] Exception in callback _SelectorSocketTransport._call_connection_lost(None)
+handle: <Handle _SelectorSocketTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\selector_events.py", line 970, in _call_connection_lost
+    super()._call_connection_lost(exc)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\selector_events.py", line 728, in _call_connection_lost
+    self._protocol.connection_lost(exc)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\base_auto_trader.py", line 59, in connection_lost
+    Subscription.close(self)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\messages.py", line 186, in close
+    self._receiver_transport.close()
+AttributeError: 'NoneType' object has no attribute 'close'
+2023-03-12 22:16:54,442 [INFO   ] [APP] testtrader started with arguments={rtg.py, run, .\testtrader.py, .\autotrader.py, .\autotrader1.py}
+2023-03-12 22:16:54,443 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"Type":"mmap","Name":"info.dat"},"TeamName":"TraderTwo","Secret":"secret"}
+2023-03-12 22:16:54,455 [INFO   ] [CONNECTION] fd=1288 connection established: peer=127.0.0.1:12345
+2023-03-12 22:17:00,256 [ERROR  ] [RECEIVER] connection lost:
+Traceback (most recent call last):
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\pubsub.py", line 136, in _subscribe_worker
+    protocol.datagram_received(buffer[start:start + length], from_addr)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\messages.py", line 212, in datagram_received
+    self.on_datagram(typ, data, HEADER_SIZE, length)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\base_auto_trader.py", line 72, in on_datagram
+    self.on_trade_ticks_message(inst, seq, *TICKS_PART.iter_unpack(data[TRADE_TICKS_HEADER_SIZE:]))
+TypeError: on_trade_ticks_message() takes 3 positional arguments but 7 were given
+2023-03-12 22:17:00,258 [INFO   ] [APP] closing event loop
+2023-03-12 22:17:00,259 [INFO   ] [CONNECTION] fd=1288 connection lost
+2023-03-12 22:17:00,260 [ERROR  ] [asyncio] Exception in callback _SelectorSocketTransport._call_connection_lost(None)
+handle: <Handle _SelectorSocketTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\selector_events.py", line 970, in _call_connection_lost
+    super()._call_connection_lost(exc)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\selector_events.py", line 728, in _call_connection_lost
+    self._protocol.connection_lost(exc)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\base_auto_trader.py", line 59, in connection_lost
+    Subscription.close(self)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\messages.py", line 186, in close
+    self._receiver_transport.close()
+AttributeError: 'NoneType' object has no attribute 'close'
+2023-03-12 22:18:44,861 [INFO   ] [APP] testtrader started with arguments={rtg.py, run, .\testtrader.py, .\autotrader.py, .\autotrader1.py}
+2023-03-12 22:18:44,861 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"Type":"mmap","Name":"info.dat"},"TeamName":"TraderTwo","Secret":"secret"}
+2023-03-12 22:18:44,877 [INFO   ] [CONNECTION] fd=1308 connection established: peer=127.0.0.1:12345
+2023-03-12 22:18:50,362 [ERROR  ] [RECEIVER] connection lost:
+Traceback (most recent call last):
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\pubsub.py", line 136, in _subscribe_worker
+    protocol.datagram_received(buffer[start:start + length], from_addr)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\messages.py", line 212, in datagram_received
+    self.on_datagram(typ, data, HEADER_SIZE, length)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\base_auto_trader.py", line 72, in on_datagram
+    self.on_trade_ticks_message(inst, seq, *TICKS_PART.iter_unpack(data[TRADE_TICKS_HEADER_SIZE:]))
+TypeError: on_trade_ticks_message() takes 3 positional arguments but 7 were given
+2023-03-12 22:18:50,365 [INFO   ] [APP] closing event loop
+2023-03-12 22:18:50,365 [INFO   ] [CONNECTION] fd=1308 connection lost
+2023-03-12 22:18:50,367 [ERROR  ] [asyncio] Exception in callback _SelectorSocketTransport._call_connection_lost(None)
+handle: <Handle _SelectorSocketTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\selector_events.py", line 970, in _call_connection_lost
+    super()._call_connection_lost(exc)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\selector_events.py", line 728, in _call_connection_lost
+    self._protocol.connection_lost(exc)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\base_auto_trader.py", line 59, in connection_lost
+    Subscription.close(self)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\messages.py", line 186, in close
+    self._receiver_transport.close()
+AttributeError: 'NoneType' object has no attribute 'close'
+2023-03-12 22:42:26,162 [INFO   ] [APP] testtrader started with arguments={rtg.py, run, .\testtrader.py, .\autotrader.py, .\autotrader1.py}
+2023-03-12 22:42:26,163 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"Type":"mmap","Name":"info.dat"},"TeamName":"TraderTwo","Secret":"secret"}
+2023-03-12 22:42:26,174 [INFO   ] [CONNECTION] fd=1276 connection established: peer=127.0.0.1:12345
+2023-03-12 22:42:31,339 [ERROR  ] [RECEIVER] connection lost:
+Traceback (most recent call last):
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\pubsub.py", line 136, in _subscribe_worker
+    protocol.datagram_received(buffer[start:start + length], from_addr)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\messages.py", line 212, in datagram_received
+    self.on_datagram(typ, data, HEADER_SIZE, length)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\base_auto_trader.py", line 72, in on_datagram
+    self.on_trade_ticks_message(inst, seq, *TICKS_PART.iter_unpack(data[TRADE_TICKS_HEADER_SIZE:]))
+TypeError: on_trade_ticks_message() takes 3 positional arguments but 7 were given
+2023-03-12 22:42:31,355 [INFO   ] [APP] closing event loop
+2023-03-12 22:42:31,355 [INFO   ] [CONNECTION] fd=1276 connection lost
+2023-03-12 22:42:31,356 [ERROR  ] [asyncio] Exception in callback _SelectorSocketTransport._call_connection_lost(None)
+handle: <Handle _SelectorSocketTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\selector_events.py", line 970, in _call_connection_lost
+    super()._call_connection_lost(exc)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\selector_events.py", line 728, in _call_connection_lost
+    self._protocol.connection_lost(exc)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\base_auto_trader.py", line 59, in connection_lost
+    Subscription.close(self)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\messages.py", line 186, in close
+    self._receiver_transport.close()
+AttributeError: 'NoneType' object has no attribute 'close'
+2023-03-12 22:45:50,350 [INFO   ] [APP] testtrader started with arguments={rtg.py, run, .\testtrader.py, .\autotrader.py, .\autotrader1.py}
+2023-03-12 22:45:50,350 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"Type":"mmap","Name":"info.dat"},"TeamName":"TraderTwo","Secret":"secret"}
+2023-03-12 22:45:50,366 [INFO   ] [CONNECTION] fd=1324 connection established: peer=127.0.0.1:12345
+2023-03-12 22:45:56,058 [ERROR  ] [RECEIVER] connection lost:
+Traceback (most recent call last):
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\pubsub.py", line 136, in _subscribe_worker
+    protocol.datagram_received(buffer[start:start + length], from_addr)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\messages.py", line 212, in datagram_received
+    self.on_datagram(typ, data, HEADER_SIZE, length)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\base_auto_trader.py", line 72, in on_datagram
+    self.on_trade_ticks_message(inst, seq, *TICKS_PART.iter_unpack(data[TRADE_TICKS_HEADER_SIZE:]))
+TypeError: on_trade_ticks_message() takes 3 positional arguments but 7 were given
+2023-03-12 22:45:56,061 [INFO   ] [APP] closing event loop
+2023-03-12 22:45:56,062 [INFO   ] [CONNECTION] fd=1324 connection lost
+2023-03-12 22:45:56,062 [ERROR  ] [asyncio] Exception in callback _SelectorSocketTransport._call_connection_lost(None)
+handle: <Handle _SelectorSocketTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\selector_events.py", line 970, in _call_connection_lost
+    super()._call_connection_lost(exc)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\selector_events.py", line 728, in _call_connection_lost
+    self._protocol.connection_lost(exc)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\base_auto_trader.py", line 59, in connection_lost
+    Subscription.close(self)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\messages.py", line 186, in close
+    self._receiver_transport.close()
+AttributeError: 'NoneType' object has no attribute 'close'
+2023-03-12 22:48:03,780 [INFO   ] [APP] testtrader started with arguments={rtg.py, run, .\testtrader.py, .\autotrader.py, .\autotrader1.py}
+2023-03-12 22:48:03,780 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"Type":"mmap","Name":"info.dat"},"TeamName":"TraderTwo","Secret":"secret"}
+2023-03-12 22:48:03,796 [INFO   ] [CONNECTION] fd=1384 connection established: peer=127.0.0.1:12345
+2023-03-12 22:48:09,489 [ERROR  ] [RECEIVER] connection lost:
+Traceback (most recent call last):
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\pubsub.py", line 136, in _subscribe_worker
+    protocol.datagram_received(buffer[start:start + length], from_addr)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\messages.py", line 212, in datagram_received
+    self.on_datagram(typ, data, HEADER_SIZE, length)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\base_auto_trader.py", line 72, in on_datagram
+    self.on_trade_ticks_message(inst, seq, *TICKS_PART.iter_unpack(data[TRADE_TICKS_HEADER_SIZE:]))
+TypeError: on_trade_ticks_message() takes 3 positional arguments but 7 were given
+2023-03-12 22:48:09,491 [INFO   ] [APP] closing event loop
+2023-03-12 22:48:09,492 [INFO   ] [CONNECTION] fd=1384 connection lost
+2023-03-12 22:48:09,492 [ERROR  ] [asyncio] Exception in callback _SelectorSocketTransport._call_connection_lost(None)
+handle: <Handle _SelectorSocketTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\selector_events.py", line 970, in _call_connection_lost
+    super()._call_connection_lost(exc)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\selector_events.py", line 728, in _call_connection_lost
+    self._protocol.connection_lost(exc)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\base_auto_trader.py", line 59, in connection_lost
+    Subscription.close(self)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\messages.py", line 186, in close
+    self._receiver_transport.close()
+AttributeError: 'NoneType' object has no attribute 'close'
+2023-03-12 22:48:30,685 [INFO   ] [APP] testtrader started with arguments={rtg.py, run, .\testtrader.py, .\autotrader.py, .\autotrader1.py}
+2023-03-12 22:48:30,685 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"Type":"mmap","Name":"info.dat"},"TeamName":"TraderTwo","Secret":"secret"}
+2023-03-12 22:48:30,700 [INFO   ] [CONNECTION] fd=1104 connection established: peer=127.0.0.1:12345
+2023-03-12 22:48:36,102 [ERROR  ] [RECEIVER] connection lost:
+Traceback (most recent call last):
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\pubsub.py", line 136, in _subscribe_worker
+    protocol.datagram_received(buffer[start:start + length], from_addr)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\messages.py", line 212, in datagram_received
+    self.on_datagram(typ, data, HEADER_SIZE, length)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\base_auto_trader.py", line 72, in on_datagram
+    self.on_trade_ticks_message(inst, seq, *TICKS_PART.iter_unpack(data[TRADE_TICKS_HEADER_SIZE:]))
+TypeError: on_trade_ticks_message() takes 3 positional arguments but 7 were given
+2023-03-12 22:48:36,105 [INFO   ] [APP] closing event loop
+2023-03-12 22:48:36,105 [INFO   ] [CONNECTION] fd=1104 connection lost
+2023-03-12 22:48:36,106 [ERROR  ] [asyncio] Exception in callback _SelectorSocketTransport._call_connection_lost(None)
+handle: <Handle _SelectorSocketTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\selector_events.py", line 970, in _call_connection_lost
+    super()._call_connection_lost(exc)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\selector_events.py", line 728, in _call_connection_lost
+    self._protocol.connection_lost(exc)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\base_auto_trader.py", line 59, in connection_lost
+    Subscription.close(self)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\messages.py", line 186, in close
+    self._receiver_transport.close()
+AttributeError: 'NoneType' object has no attribute 'close'
+2023-03-12 22:55:51,106 [INFO   ] [APP] testtrader started with arguments={rtg.py, run, .\testtrader.py, .\autotrader.py, .\autotrader1.py}
+2023-03-12 22:55:51,106 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"Type":"mmap","Name":"info.dat"},"TeamName":"TraderTwo","Secret":"secret"}
+2023-03-12 22:55:51,122 [INFO   ] [CONNECTION] fd=1456 connection established: peer=127.0.0.1:12345
+2023-03-12 22:55:56,885 [ERROR  ] [RECEIVER] connection lost:
+Traceback (most recent call last):
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\pubsub.py", line 136, in _subscribe_worker
+    protocol.datagram_received(buffer[start:start + length], from_addr)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\messages.py", line 212, in datagram_received
+    self.on_datagram(typ, data, HEADER_SIZE, length)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\base_auto_trader.py", line 72, in on_datagram
+    self.on_trade_ticks_message(inst, seq, *TICKS_PART.iter_unpack(data[TRADE_TICKS_HEADER_SIZE:]))
+TypeError: on_trade_ticks_message() takes 3 positional arguments but 7 were given
+2023-03-12 22:55:56,890 [INFO   ] [APP] closing event loop
+2023-03-12 22:55:56,891 [INFO   ] [CONNECTION] fd=1456 connection lost
+2023-03-12 22:55:56,892 [ERROR  ] [asyncio] Exception in callback _SelectorSocketTransport._call_connection_lost(None)
+handle: <Handle _SelectorSocketTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\selector_events.py", line 970, in _call_connection_lost
+    super()._call_connection_lost(exc)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\selector_events.py", line 728, in _call_connection_lost
+    self._protocol.connection_lost(exc)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\base_auto_trader.py", line 59, in connection_lost
+    Subscription.close(self)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\messages.py", line 186, in close
+    self._receiver_transport.close()
+AttributeError: 'NoneType' object has no attribute 'close'
+2023-03-12 23:00:07,122 [INFO   ] [APP] testtrader started with arguments={rtg.py, run, .\testtrader.py, .\autotrader.py, .\autotrader1.py}
+2023-03-12 23:00:07,122 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"Type":"mmap","Name":"info.dat"},"TeamName":"TraderTwo","Secret":"secret"}
+2023-03-12 23:00:07,122 [INFO   ] [CONNECTION] fd=1268 connection established: peer=127.0.0.1:12345
+2023-03-12 23:00:12,827 [ERROR  ] [RECEIVER] connection lost:
+Traceback (most recent call last):
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\pubsub.py", line 136, in _subscribe_worker
+    protocol.datagram_received(buffer[start:start + length], from_addr)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\messages.py", line 212, in datagram_received
+    self.on_datagram(typ, data, HEADER_SIZE, length)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\base_auto_trader.py", line 72, in on_datagram
+    self.on_trade_ticks_message(inst, seq, *TICKS_PART.iter_unpack(data[TRADE_TICKS_HEADER_SIZE:]))
+TypeError: on_trade_ticks_message() takes 3 positional arguments but 7 were given
+2023-03-12 23:00:12,829 [INFO   ] [APP] closing event loop
+2023-03-12 23:00:12,830 [INFO   ] [CONNECTION] fd=1268 connection lost
+2023-03-12 23:00:12,830 [ERROR  ] [asyncio] Exception in callback _SelectorSocketTransport._call_connection_lost(None)
+handle: <Handle _SelectorSocketTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\selector_events.py", line 970, in _call_connection_lost
+    super()._call_connection_lost(exc)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\selector_events.py", line 728, in _call_connection_lost
+    self._protocol.connection_lost(exc)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\base_auto_trader.py", line 59, in connection_lost
+    Subscription.close(self)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\messages.py", line 186, in close
+    self._receiver_transport.close()
+AttributeError: 'NoneType' object has no attribute 'close'
+2023-03-12 23:01:53,984 [INFO   ] [APP] testtrader started with arguments={rtg.py, run, .\testtrader.py, .\autotrader.py, .\autotrader1.py}
+2023-03-12 23:01:53,999 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"Type":"mmap","Name":"info.dat"},"TeamName":"TraderTwo","Secret":"secret"}
+2023-03-12 23:01:53,999 [INFO   ] [CONNECTION] fd=1028 connection established: peer=127.0.0.1:12345
+2023-03-12 23:01:59,648 [ERROR  ] [RECEIVER] connection lost:
+Traceback (most recent call last):
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\pubsub.py", line 136, in _subscribe_worker
+    protocol.datagram_received(buffer[start:start + length], from_addr)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\messages.py", line 212, in datagram_received
+    self.on_datagram(typ, data, HEADER_SIZE, length)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\base_auto_trader.py", line 72, in on_datagram
+    self.on_trade_ticks_message(inst, seq, *TICKS_PART.iter_unpack(data[TRADE_TICKS_HEADER_SIZE:]))
+TypeError: on_trade_ticks_message() takes 3 positional arguments but 7 were given
+2023-03-12 23:01:59,651 [INFO   ] [APP] closing event loop
+2023-03-12 23:01:59,651 [INFO   ] [CONNECTION] fd=1028 connection lost
+2023-03-12 23:01:59,652 [ERROR  ] [asyncio] Exception in callback _SelectorSocketTransport._call_connection_lost(None)
+handle: <Handle _SelectorSocketTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\selector_events.py", line 970, in _call_connection_lost
+    super()._call_connection_lost(exc)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\selector_events.py", line 728, in _call_connection_lost
+    self._protocol.connection_lost(exc)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\base_auto_trader.py", line 59, in connection_lost
+    Subscription.close(self)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\messages.py", line 186, in close
+    self._receiver_transport.close()
+AttributeError: 'NoneType' object has no attribute 'close'
+2023-03-13 00:44:37,813 [INFO   ] [APP] testtrader started with arguments={rtg.py, run, .\testtrader.py, .\autotrader.py, .\autotrader1.py}
+2023-03-13 00:44:37,814 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"Type":"mmap","Name":"info.dat"},"TeamName":"TraderTwo","Secret":"secret"}
+2023-03-13 00:44:37,826 [INFO   ] [CONNECTION] fd=1376 connection established: peer=127.0.0.1:12345
+2023-03-13 00:44:43,722 [ERROR  ] [RECEIVER] connection lost:
+Traceback (most recent call last):
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\pubsub.py", line 136, in _subscribe_worker
+    protocol.datagram_received(buffer[start:start + length], from_addr)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\messages.py", line 212, in datagram_received
+    self.on_datagram(typ, data, HEADER_SIZE, length)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\base_auto_trader.py", line 72, in on_datagram
+    self.on_trade_ticks_message(inst, seq, *TICKS_PART.iter_unpack(data[TRADE_TICKS_HEADER_SIZE:]))
+TypeError: on_trade_ticks_message() takes 3 positional arguments but 7 were given
+2023-03-13 00:44:43,725 [INFO   ] [APP] closing event loop
+2023-03-13 00:44:43,725 [INFO   ] [CONNECTION] fd=1376 connection lost
+2023-03-13 00:44:43,726 [ERROR  ] [asyncio] Exception in callback _SelectorSocketTransport._call_connection_lost(None)
+handle: <Handle _SelectorSocketTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\selector_events.py", line 970, in _call_connection_lost
+    super()._call_connection_lost(exc)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\selector_events.py", line 728, in _call_connection_lost
+    self._protocol.connection_lost(exc)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\base_auto_trader.py", line 59, in connection_lost
+    Subscription.close(self)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\messages.py", line 186, in close
+    self._receiver_transport.close()
+AttributeError: 'NoneType' object has no attribute 'close'
+2023-03-13 00:49:22,864 [INFO   ] [APP] testtrader started with arguments={rtg.py, run, .\testtrader.py, .\autotrader.py, .\autotrader1.py}
+2023-03-13 00:49:22,865 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"Type":"mmap","Name":"info.dat"},"TeamName":"TraderTwo","Secret":"secret"}
+2023-03-13 00:49:22,901 [INFO   ] [CONNECTION] fd=1304 connection established: peer=127.0.0.1:12345
+2023-03-13 00:49:28,291 [ERROR  ] [RECEIVER] connection lost:
+Traceback (most recent call last):
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\pubsub.py", line 136, in _subscribe_worker
+    protocol.datagram_received(buffer[start:start + length], from_addr)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\messages.py", line 212, in datagram_received
+    self.on_datagram(typ, data, HEADER_SIZE, length)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\base_auto_trader.py", line 72, in on_datagram
+    self.on_trade_ticks_message(inst, seq, *TICKS_PART.iter_unpack(data[TRADE_TICKS_HEADER_SIZE:]))
+TypeError: on_trade_ticks_message() takes 3 positional arguments but 7 were given
+2023-03-13 00:49:28,291 [INFO   ] [APP] closing event loop
+2023-03-13 00:49:28,291 [INFO   ] [CONNECTION] fd=1304 connection lost
+2023-03-13 00:49:28,291 [ERROR  ] [asyncio] Exception in callback _SelectorSocketTransport._call_connection_lost(None)
+handle: <Handle _SelectorSocketTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\selector_events.py", line 970, in _call_connection_lost
+    super()._call_connection_lost(exc)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\selector_events.py", line 728, in _call_connection_lost
+    self._protocol.connection_lost(exc)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\base_auto_trader.py", line 59, in connection_lost
+    Subscription.close(self)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\messages.py", line 186, in close
+    self._receiver_transport.close()
+AttributeError: 'NoneType' object has no attribute 'close'
+2023-03-13 00:50:24,125 [INFO   ] [APP] testtrader started with arguments={rtg.py, run, .\testtrader.py, .\autotrader.py, .\autotrader1.py}
+2023-03-13 00:50:24,126 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"Type":"mmap","Name":"info.dat"},"TeamName":"TraderTwo","Secret":"secret"}
+2023-03-13 00:50:24,140 [INFO   ] [CONNECTION] fd=1448 connection established: peer=127.0.0.1:12345
+2023-03-13 00:50:29,992 [ERROR  ] [RECEIVER] connection lost:
+Traceback (most recent call last):
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\pubsub.py", line 136, in _subscribe_worker
+    protocol.datagram_received(buffer[start:start + length], from_addr)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\messages.py", line 212, in datagram_received
+    self.on_datagram(typ, data, HEADER_SIZE, length)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\base_auto_trader.py", line 72, in on_datagram
+    self.on_trade_ticks_message(inst, seq, *TICKS_PART.iter_unpack(data[TRADE_TICKS_HEADER_SIZE:]))
+TypeError: on_trade_ticks_message() takes 3 positional arguments but 7 were given
+2023-03-13 00:50:29,995 [INFO   ] [APP] closing event loop
+2023-03-13 00:50:29,995 [INFO   ] [CONNECTION] fd=1448 connection lost
+2023-03-13 00:50:29,996 [ERROR  ] [asyncio] Exception in callback _SelectorSocketTransport._call_connection_lost(None)
+handle: <Handle _SelectorSocketTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\selector_events.py", line 970, in _call_connection_lost
+    super()._call_connection_lost(exc)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\selector_events.py", line 728, in _call_connection_lost
+    self._protocol.connection_lost(exc)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\base_auto_trader.py", line 59, in connection_lost
+    Subscription.close(self)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\messages.py", line 186, in close
+    self._receiver_transport.close()
+AttributeError: 'NoneType' object has no attribute 'close'
+2023-03-13 00:59:52,697 [INFO   ] [APP] testtrader started with arguments={rtg.py, run, .\testtrader.py, .\autotrader.py, .\autotrader1.py}
+2023-03-13 00:59:52,698 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"Type":"mmap","Name":"info.dat"},"TeamName":"TraderTwo","Secret":"secret"}
+2023-03-13 00:59:52,708 [INFO   ] [CONNECTION] fd=1388 connection established: peer=127.0.0.1:12345
+2023-03-13 00:59:58,125 [ERROR  ] [RECEIVER] connection lost:
+Traceback (most recent call last):
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\pubsub.py", line 136, in _subscribe_worker
+    protocol.datagram_received(buffer[start:start + length], from_addr)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\messages.py", line 212, in datagram_received
+    self.on_datagram(typ, data, HEADER_SIZE, length)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\base_auto_trader.py", line 72, in on_datagram
+    self.on_trade_ticks_message(inst, seq, *TICKS_PART.iter_unpack(data[TRADE_TICKS_HEADER_SIZE:]))
+TypeError: on_trade_ticks_message() takes 3 positional arguments but 7 were given
+2023-03-13 00:59:58,127 [INFO   ] [APP] closing event loop
+2023-03-13 00:59:58,127 [INFO   ] [CONNECTION] fd=1388 connection lost
+2023-03-13 00:59:58,128 [ERROR  ] [asyncio] Exception in callback _SelectorSocketTransport._call_connection_lost(None)
+handle: <Handle _SelectorSocketTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\selector_events.py", line 970, in _call_connection_lost
+    super()._call_connection_lost(exc)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\selector_events.py", line 728, in _call_connection_lost
+    self._protocol.connection_lost(exc)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\base_auto_trader.py", line 59, in connection_lost
+    Subscription.close(self)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\messages.py", line 186, in close
+    self._receiver_transport.close()
+AttributeError: 'NoneType' object has no attribute 'close'
+2023-03-13 01:18:17,174 [INFO   ] [APP] testtrader started with arguments={rtg.py, run, .\testtrader.py, .\autotrader.py, .\autotrader1.py}
+2023-03-13 01:18:17,174 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"Type":"mmap","Name":"info.dat"},"TeamName":"TraderTwo","Secret":"secret"}
+2023-03-13 01:18:17,205 [INFO   ] [CONNECTION] fd=1340 connection established: peer=127.0.0.1:12345
+2023-03-13 01:18:23,058 [ERROR  ] [RECEIVER] connection lost:
+Traceback (most recent call last):
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\pubsub.py", line 136, in _subscribe_worker
+    protocol.datagram_received(buffer[start:start + length], from_addr)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\messages.py", line 212, in datagram_received
+    self.on_datagram(typ, data, HEADER_SIZE, length)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\base_auto_trader.py", line 72, in on_datagram
+    self.on_trade_ticks_message(inst, seq, *TICKS_PART.iter_unpack(data[TRADE_TICKS_HEADER_SIZE:]))
+TypeError: on_trade_ticks_message() takes 3 positional arguments but 7 were given
+2023-03-13 01:18:23,103 [INFO   ] [APP] closing event loop
+2023-03-13 01:18:23,104 [INFO   ] [CONNECTION] fd=1340 connection lost
+2023-03-13 01:18:23,105 [ERROR  ] [asyncio] Exception in callback _SelectorSocketTransport._call_connection_lost(None)
+handle: <Handle _SelectorSocketTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\selector_events.py", line 970, in _call_connection_lost
+    super()._call_connection_lost(exc)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\selector_events.py", line 728, in _call_connection_lost
+    self._protocol.connection_lost(exc)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\base_auto_trader.py", line 59, in connection_lost
+    Subscription.close(self)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\messages.py", line 186, in close
+    self._receiver_transport.close()
+AttributeError: 'NoneType' object has no attribute 'close'
+2023-03-13 01:34:08,794 [INFO   ] [APP] testtrader started with arguments={rtg.py, run, .\testtrader.py, .\autotrader.py, .\autotrader1.py}
+2023-03-13 01:34:08,794 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"Type":"mmap","Name":"info.dat"},"TeamName":"TraderTwo","Secret":"secret"}
+2023-03-13 01:34:08,809 [INFO   ] [CONNECTION] fd=1408 connection established: peer=127.0.0.1:12345
+2023-03-13 01:34:14,204 [ERROR  ] [RECEIVER] connection lost:
+Traceback (most recent call last):
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\pubsub.py", line 136, in _subscribe_worker
+    protocol.datagram_received(buffer[start:start + length], from_addr)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\messages.py", line 212, in datagram_received
+    self.on_datagram(typ, data, HEADER_SIZE, length)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\base_auto_trader.py", line 72, in on_datagram
+    self.on_trade_ticks_message(inst, seq, *TICKS_PART.iter_unpack(data[TRADE_TICKS_HEADER_SIZE:]))
+TypeError: on_trade_ticks_message() takes 3 positional arguments but 7 were given
+2023-03-13 01:34:14,208 [INFO   ] [APP] closing event loop
+2023-03-13 01:34:14,209 [INFO   ] [CONNECTION] fd=1408 connection lost
+2023-03-13 01:34:14,210 [ERROR  ] [asyncio] Exception in callback _SelectorSocketTransport._call_connection_lost(None)
+handle: <Handle _SelectorSocketTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\selector_events.py", line 970, in _call_connection_lost
+    super()._call_connection_lost(exc)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\selector_events.py", line 728, in _call_connection_lost
+    self._protocol.connection_lost(exc)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\base_auto_trader.py", line 59, in connection_lost
+    Subscription.close(self)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\messages.py", line 186, in close
+    self._receiver_transport.close()
+AttributeError: 'NoneType' object has no attribute 'close'
+2023-03-13 01:44:53,100 [INFO   ] [APP] testtrader started with arguments={rtg.py, run, .\testtrader.py, .\autotrader.py, .\autotrader1.py}
+2023-03-13 01:44:53,100 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"Type":"mmap","Name":"info.dat"},"TeamName":"TraderTwo","Secret":"secret"}
+2023-03-13 01:44:53,116 [INFO   ] [CONNECTION] fd=1476 connection established: peer=127.0.0.1:12345
+2023-03-13 01:44:58,627 [ERROR  ] [RECEIVER] connection lost:
+Traceback (most recent call last):
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\pubsub.py", line 136, in _subscribe_worker
+    protocol.datagram_received(buffer[start:start + length], from_addr)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\messages.py", line 212, in datagram_received
+    self.on_datagram(typ, data, HEADER_SIZE, length)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\base_auto_trader.py", line 72, in on_datagram
+    self.on_trade_ticks_message(inst, seq, *TICKS_PART.iter_unpack(data[TRADE_TICKS_HEADER_SIZE:]))
+TypeError: on_trade_ticks_message() takes 3 positional arguments but 7 were given
+2023-03-13 01:44:58,637 [INFO   ] [APP] closing event loop
+2023-03-13 01:44:58,637 [INFO   ] [CONNECTION] fd=1476 connection lost
+2023-03-13 01:44:58,637 [ERROR  ] [asyncio] Exception in callback _SelectorSocketTransport._call_connection_lost(None)
+handle: <Handle _SelectorSocketTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\selector_events.py", line 970, in _call_connection_lost
+    super()._call_connection_lost(exc)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\selector_events.py", line 728, in _call_connection_lost
+    self._protocol.connection_lost(exc)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\base_auto_trader.py", line 59, in connection_lost
+    Subscription.close(self)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\messages.py", line 186, in close
+    self._receiver_transport.close()
+AttributeError: 'NoneType' object has no attribute 'close'
+2023-03-13 02:01:02,606 [INFO   ] [APP] testtrader started with arguments={rtg.py, run, .\testtrader.py, .\autotrader.py, .\autotrader1.py}
+2023-03-13 02:01:02,606 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"Type":"mmap","Name":"info.dat"},"TeamName":"TraderTwo","Secret":"secret"}
+2023-03-13 02:01:02,621 [INFO   ] [CONNECTION] fd=932 connection established: peer=127.0.0.1:12345
+2023-03-13 02:01:08,371 [ERROR  ] [RECEIVER] connection lost:
+Traceback (most recent call last):
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\pubsub.py", line 136, in _subscribe_worker
+    protocol.datagram_received(buffer[start:start + length], from_addr)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\messages.py", line 212, in datagram_received
+    self.on_datagram(typ, data, HEADER_SIZE, length)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\base_auto_trader.py", line 72, in on_datagram
+    self.on_trade_ticks_message(inst, seq, *TICKS_PART.iter_unpack(data[TRADE_TICKS_HEADER_SIZE:]))
+TypeError: on_trade_ticks_message() takes 3 positional arguments but 7 were given
+2023-03-13 02:01:08,376 [INFO   ] [APP] closing event loop
+2023-03-13 02:01:08,376 [INFO   ] [CONNECTION] fd=932 connection lost
+2023-03-13 02:01:08,377 [ERROR  ] [asyncio] Exception in callback _SelectorSocketTransport._call_connection_lost(None)
+handle: <Handle _SelectorSocketTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\selector_events.py", line 970, in _call_connection_lost
+    super()._call_connection_lost(exc)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\selector_events.py", line 728, in _call_connection_lost
+    self._protocol.connection_lost(exc)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\base_auto_trader.py", line 59, in connection_lost
+    Subscription.close(self)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\messages.py", line 186, in close
+    self._receiver_transport.close()
+AttributeError: 'NoneType' object has no attribute 'close'
+2023-03-13 02:02:52,007 [INFO   ] [APP] testtrader started with arguments={rtg.py, run, .\testtrader.py, .\autotrader.py, .\autotrader1.py}
+2023-03-13 02:02:52,007 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"Type":"mmap","Name":"info.dat"},"TeamName":"TraderTwo","Secret":"secret"}
+2023-03-13 02:02:52,007 [INFO   ] [CONNECTION] fd=1184 connection established: peer=127.0.0.1:12345
+2023-03-13 02:02:57,699 [ERROR  ] [RECEIVER] connection lost:
+Traceback (most recent call last):
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\pubsub.py", line 136, in _subscribe_worker
+    protocol.datagram_received(buffer[start:start + length], from_addr)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\messages.py", line 212, in datagram_received
+    self.on_datagram(typ, data, HEADER_SIZE, length)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\base_auto_trader.py", line 72, in on_datagram
+    self.on_trade_ticks_message(inst, seq, *TICKS_PART.iter_unpack(data[TRADE_TICKS_HEADER_SIZE:]))
+TypeError: on_trade_ticks_message() takes 3 positional arguments but 7 were given
+2023-03-13 02:02:57,701 [INFO   ] [APP] closing event loop
+2023-03-13 02:02:57,701 [INFO   ] [CONNECTION] fd=1184 connection lost
+2023-03-13 02:02:57,702 [ERROR  ] [asyncio] Exception in callback _SelectorSocketTransport._call_connection_lost(None)
+handle: <Handle _SelectorSocketTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\selector_events.py", line 970, in _call_connection_lost
+    super()._call_connection_lost(exc)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\selector_events.py", line 728, in _call_connection_lost
+    self._protocol.connection_lost(exc)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\base_auto_trader.py", line 59, in connection_lost
+    Subscription.close(self)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\messages.py", line 186, in close
+    self._receiver_transport.close()
+AttributeError: 'NoneType' object has no attribute 'close'
+2023-03-13 02:05:48,390 [INFO   ] [APP] testtrader started with arguments={rtg.py, run, .\testtrader.py, .\autotrader.py, .\autotrader1.py}
+2023-03-13 02:05:48,390 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"Type":"mmap","Name":"info.dat"},"TeamName":"TraderTwo","Secret":"secret"}
+2023-03-13 02:05:48,403 [INFO   ] [CONNECTION] fd=1064 connection established: peer=127.0.0.1:12345
+2023-03-13 02:05:48,440 [ERROR  ] [RECEIVER] connection lost:
+Traceback (most recent call last):
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\pubsub.py", line 136, in _subscribe_worker
+    protocol.datagram_received(buffer[start:start + length], from_addr)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\messages.py", line 212, in datagram_received
+    self.on_datagram(typ, data, HEADER_SIZE, length)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\base_auto_trader.py", line 72, in on_datagram
+    self.on_trade_ticks_message(inst, seq, *TICKS_PART.iter_unpack(data[TRADE_TICKS_HEADER_SIZE:]))
+TypeError: on_trade_ticks_message() takes 3 positional arguments but 7 were given
+2023-03-13 02:05:48,443 [INFO   ] [APP] closing event loop
+2023-03-13 02:05:48,443 [INFO   ] [CONNECTION] fd=1064 connection lost
+2023-03-13 02:05:48,444 [ERROR  ] [asyncio] Exception in callback _SelectorSocketTransport._call_connection_lost(None)
+handle: <Handle _SelectorSocketTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\selector_events.py", line 970, in _call_connection_lost
+    super()._call_connection_lost(exc)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\selector_events.py", line 728, in _call_connection_lost
+    self._protocol.connection_lost(exc)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\base_auto_trader.py", line 59, in connection_lost
+    Subscription.close(self)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\messages.py", line 186, in close
+    self._receiver_transport.close()
+AttributeError: 'NoneType' object has no attribute 'close'
+2023-03-13 02:09:32,211 [INFO   ] [APP] testtrader started with arguments={rtg.py, run, .\testtrader.py, .\autotrader.py, .\autotrader1.py}
+2023-03-13 02:09:32,211 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"Type":"mmap","Name":"info.dat"},"TeamName":"TraderTwo","Secret":"secret"}
+2023-03-13 02:09:32,231 [INFO   ] [CONNECTION] fd=1416 connection established: peer=127.0.0.1:12345
+2023-03-13 02:09:38,053 [ERROR  ] [RECEIVER] connection lost:
+Traceback (most recent call last):
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\pubsub.py", line 136, in _subscribe_worker
+    protocol.datagram_received(buffer[start:start + length], from_addr)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\messages.py", line 212, in datagram_received
+    self.on_datagram(typ, data, HEADER_SIZE, length)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\base_auto_trader.py", line 72, in on_datagram
+    self.on_trade_ticks_message(inst, seq, *TICKS_PART.iter_unpack(data[TRADE_TICKS_HEADER_SIZE:]))
+TypeError: on_trade_ticks_message() takes 3 positional arguments but 7 were given
+2023-03-13 02:09:38,059 [INFO   ] [APP] closing event loop
+2023-03-13 02:09:38,059 [INFO   ] [CONNECTION] fd=1416 connection lost
+2023-03-13 02:09:38,060 [ERROR  ] [asyncio] Exception in callback _SelectorSocketTransport._call_connection_lost(None)
+handle: <Handle _SelectorSocketTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\selector_events.py", line 970, in _call_connection_lost
+    super()._call_connection_lost(exc)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\selector_events.py", line 728, in _call_connection_lost
+    self._protocol.connection_lost(exc)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\base_auto_trader.py", line 59, in connection_lost
+    Subscription.close(self)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\messages.py", line 186, in close
+    self._receiver_transport.close()
+AttributeError: 'NoneType' object has no attribute 'close'
+2023-03-13 02:13:55,200 [INFO   ] [APP] testtrader started with arguments={rtg.py, run, .\testtrader.py, .\autotrader.py, .\autotrader1.py}
+2023-03-13 02:13:55,200 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"Type":"mmap","Name":"info.dat"},"TeamName":"TraderTwo","Secret":"secret"}
+2023-03-13 02:13:55,223 [INFO   ] [CONNECTION] fd=1408 connection established: peer=127.0.0.1:12345
+2023-03-13 02:14:00,864 [ERROR  ] [RECEIVER] connection lost:
+Traceback (most recent call last):
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\pubsub.py", line 136, in _subscribe_worker
+    protocol.datagram_received(buffer[start:start + length], from_addr)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\messages.py", line 212, in datagram_received
+    self.on_datagram(typ, data, HEADER_SIZE, length)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\base_auto_trader.py", line 72, in on_datagram
+    self.on_trade_ticks_message(inst, seq, *TICKS_PART.iter_unpack(data[TRADE_TICKS_HEADER_SIZE:]))
+TypeError: on_trade_ticks_message() takes 3 positional arguments but 7 were given
+2023-03-13 02:14:00,867 [INFO   ] [APP] closing event loop
+2023-03-13 02:14:00,867 [INFO   ] [CONNECTION] fd=1408 connection lost
+2023-03-13 02:14:00,868 [ERROR  ] [asyncio] Exception in callback _SelectorSocketTransport._call_connection_lost(None)
+handle: <Handle _SelectorSocketTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\selector_events.py", line 970, in _call_connection_lost
+    super()._call_connection_lost(exc)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\selector_events.py", line 728, in _call_connection_lost
+    self._protocol.connection_lost(exc)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\base_auto_trader.py", line 59, in connection_lost
+    Subscription.close(self)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\messages.py", line 186, in close
+    self._receiver_transport.close()
+AttributeError: 'NoneType' object has no attribute 'close'
+2023-03-13 16:04:55,461 [INFO   ] [APP] testtrader started with arguments={rtg.py, run, .\autotrader.py, .\testtrader.py, .\autotrader1.py}
+2023-03-13 16:04:55,462 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"Type":"mmap","Name":"info.dat"},"TeamName":"TraderTwo","Secret":"secret"}
+2023-03-13 16:04:55,511 [INFO   ] [CONNECTION] fd=1424 connection established: peer=127.0.0.1:12345
+2023-03-13 16:05:01,280 [ERROR  ] [RECEIVER] connection lost:
+Traceback (most recent call last):
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\pubsub.py", line 136, in _subscribe_worker
+    protocol.datagram_received(buffer[start:start + length], from_addr)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\messages.py", line 212, in datagram_received
+    self.on_datagram(typ, data, HEADER_SIZE, length)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\base_auto_trader.py", line 72, in on_datagram
+    self.on_trade_ticks_message(inst, seq, *TICKS_PART.iter_unpack(data[TRADE_TICKS_HEADER_SIZE:]))
+TypeError: on_trade_ticks_message() takes 3 positional arguments but 7 were given
+2023-03-13 16:05:01,290 [INFO   ] [APP] closing event loop
+2023-03-13 16:05:01,291 [INFO   ] [CONNECTION] fd=1424 connection lost
+2023-03-13 16:05:01,292 [ERROR  ] [asyncio] Exception in callback _SelectorSocketTransport._call_connection_lost(None)
+handle: <Handle _SelectorSocketTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\selector_events.py", line 970, in _call_connection_lost
+    super()._call_connection_lost(exc)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\selector_events.py", line 728, in _call_connection_lost
+    self._protocol.connection_lost(exc)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\base_auto_trader.py", line 59, in connection_lost
+    Subscription.close(self)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\messages.py", line 186, in close
+    self._receiver_transport.close()
+AttributeError: 'NoneType' object has no attribute 'close'
+2023-03-13 16:07:56,410 [INFO   ] [APP] testtrader started with arguments={rtg.py, run, .\autotrader.py, .\testtrader.py, .\autotrader1.py}
+2023-03-13 16:07:56,412 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"Type":"mmap","Name":"info.dat"},"TeamName":"TraderTwo","Secret":"secret"}
+2023-03-13 16:07:56,428 [INFO   ] [CONNECTION] fd=1532 connection established: peer=127.0.0.1:12345
+2023-03-13 16:08:02,029 [ERROR  ] [RECEIVER] connection lost:
+Traceback (most recent call last):
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\pubsub.py", line 136, in _subscribe_worker
+    protocol.datagram_received(buffer[start:start + length], from_addr)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\messages.py", line 212, in datagram_received
+    self.on_datagram(typ, data, HEADER_SIZE, length)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\base_auto_trader.py", line 72, in on_datagram
+    self.on_trade_ticks_message(inst, seq, *TICKS_PART.iter_unpack(data[TRADE_TICKS_HEADER_SIZE:]))
+TypeError: on_trade_ticks_message() takes 3 positional arguments but 7 were given
+2023-03-13 16:08:02,033 [INFO   ] [APP] closing event loop
+2023-03-13 16:08:02,034 [INFO   ] [CONNECTION] fd=1532 connection lost
+2023-03-13 16:08:02,035 [ERROR  ] [asyncio] Exception in callback _SelectorSocketTransport._call_connection_lost(None)
+handle: <Handle _SelectorSocketTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\selector_events.py", line 970, in _call_connection_lost
+    super()._call_connection_lost(exc)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\selector_events.py", line 728, in _call_connection_lost
+    self._protocol.connection_lost(exc)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\base_auto_trader.py", line 59, in connection_lost
+    Subscription.close(self)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\messages.py", line 186, in close
+    self._receiver_transport.close()
+AttributeError: 'NoneType' object has no attribute 'close'
+2023-03-13 16:09:26,764 [INFO   ] [APP] testtrader started with arguments={rtg.py, run, .\autotrader.py, .\testtrader.py, .\autotrader1.py}
+2023-03-13 16:09:26,764 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"Type":"mmap","Name":"info.dat"},"TeamName":"TraderTwo","Secret":"secret"}
+2023-03-13 16:09:26,791 [INFO   ] [CONNECTION] fd=1160 connection established: peer=127.0.0.1:12345
+2023-03-13 16:09:32,206 [ERROR  ] [RECEIVER] connection lost:
+Traceback (most recent call last):
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\pubsub.py", line 136, in _subscribe_worker
+    protocol.datagram_received(buffer[start:start + length], from_addr)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\messages.py", line 212, in datagram_received
+    self.on_datagram(typ, data, HEADER_SIZE, length)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\base_auto_trader.py", line 72, in on_datagram
+    self.on_trade_ticks_message(inst, seq, *TICKS_PART.iter_unpack(data[TRADE_TICKS_HEADER_SIZE:]))
+TypeError: on_trade_ticks_message() takes 3 positional arguments but 7 were given
+2023-03-13 16:09:32,211 [INFO   ] [APP] closing event loop
+2023-03-13 16:09:32,212 [INFO   ] [CONNECTION] fd=1160 connection lost
+2023-03-13 16:09:32,212 [ERROR  ] [asyncio] Exception in callback _SelectorSocketTransport._call_connection_lost(None)
+handle: <Handle _SelectorSocketTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\selector_events.py", line 970, in _call_connection_lost
+    super()._call_connection_lost(exc)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\selector_events.py", line 728, in _call_connection_lost
+    self._protocol.connection_lost(exc)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\base_auto_trader.py", line 59, in connection_lost
+    Subscription.close(self)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\messages.py", line 186, in close
+    self._receiver_transport.close()
+AttributeError: 'NoneType' object has no attribute 'close'
+2023-03-13 16:11:41,721 [INFO   ] [APP] testtrader started with arguments={rtg.py, run, .\autotrader.py, .\testtrader.py, .\autotrader1.py}
+2023-03-13 16:11:41,727 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"Type":"mmap","Name":"info.dat"},"TeamName":"TraderTwo","Secret":"secret"}
+2023-03-13 16:11:41,745 [INFO   ] [CONNECTION] fd=1468 connection established: peer=127.0.0.1:12345
+2023-03-13 16:11:47,419 [ERROR  ] [RECEIVER] connection lost:
+Traceback (most recent call last):
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\pubsub.py", line 136, in _subscribe_worker
+    protocol.datagram_received(buffer[start:start + length], from_addr)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\messages.py", line 212, in datagram_received
+    self.on_datagram(typ, data, HEADER_SIZE, length)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\base_auto_trader.py", line 72, in on_datagram
+    self.on_trade_ticks_message(inst, seq, *TICKS_PART.iter_unpack(data[TRADE_TICKS_HEADER_SIZE:]))
+TypeError: on_trade_ticks_message() takes 3 positional arguments but 7 were given
+2023-03-13 16:11:47,421 [INFO   ] [APP] closing event loop
+2023-03-13 16:11:47,422 [INFO   ] [CONNECTION] fd=1468 connection lost
+2023-03-13 16:11:47,422 [ERROR  ] [asyncio] Exception in callback _SelectorSocketTransport._call_connection_lost(None)
+handle: <Handle _SelectorSocketTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\selector_events.py", line 970, in _call_connection_lost
+    super()._call_connection_lost(exc)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\selector_events.py", line 728, in _call_connection_lost
+    self._protocol.connection_lost(exc)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\base_auto_trader.py", line 59, in connection_lost
+    Subscription.close(self)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\messages.py", line 186, in close
+    self._receiver_transport.close()
+AttributeError: 'NoneType' object has no attribute 'close'
+2023-03-13 16:28:31,133 [INFO   ] [APP] testtrader started with arguments={rtg.py, run, .\autotrader.py, .\testtrader.py, .\autotrader1.py}
+2023-03-13 16:28:31,135 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"Type":"mmap","Name":"info.dat"},"TeamName":"TraderTwo","Secret":"secret"}
+2023-03-13 16:28:31,148 [INFO   ] [CONNECTION] fd=1456 connection established: peer=127.0.0.1:12345
+2023-03-13 16:28:36,320 [ERROR  ] [RECEIVER] connection lost:
+Traceback (most recent call last):
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\pubsub.py", line 136, in _subscribe_worker
+    protocol.datagram_received(buffer[start:start + length], from_addr)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\messages.py", line 212, in datagram_received
+    self.on_datagram(typ, data, HEADER_SIZE, length)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\base_auto_trader.py", line 72, in on_datagram
+    self.on_trade_ticks_message(inst, seq, *TICKS_PART.iter_unpack(data[TRADE_TICKS_HEADER_SIZE:]))
+TypeError: on_trade_ticks_message() takes 3 positional arguments but 7 were given
+2023-03-13 16:28:36,326 [INFO   ] [APP] closing event loop
+2023-03-13 16:28:36,327 [INFO   ] [CONNECTION] fd=1456 connection lost
+2023-03-13 16:28:36,330 [ERROR  ] [asyncio] Exception in callback _SelectorSocketTransport._call_connection_lost(None)
+handle: <Handle _SelectorSocketTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\selector_events.py", line 970, in _call_connection_lost
+    super()._call_connection_lost(exc)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\selector_events.py", line 728, in _call_connection_lost
+    self._protocol.connection_lost(exc)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\base_auto_trader.py", line 59, in connection_lost
+    Subscription.close(self)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\messages.py", line 186, in close
+    self._receiver_transport.close()
+AttributeError: 'NoneType' object has no attribute 'close'
+2023-03-13 16:28:54,678 [INFO   ] [APP] testtrader started with arguments={rtg.py, run, .\autotrader.py, .\testtrader.py, .\autotrader1.py}
+2023-03-13 16:28:54,679 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"Type":"mmap","Name":"info.dat"},"TeamName":"TraderTwo","Secret":"secret"}
+2023-03-13 16:28:54,693 [INFO   ] [CONNECTION] fd=1420 connection established: peer=127.0.0.1:12345
+2023-03-13 16:29:00,284 [ERROR  ] [RECEIVER] connection lost:
+Traceback (most recent call last):
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\pubsub.py", line 136, in _subscribe_worker
+    protocol.datagram_received(buffer[start:start + length], from_addr)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\messages.py", line 212, in datagram_received
+    self.on_datagram(typ, data, HEADER_SIZE, length)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\base_auto_trader.py", line 72, in on_datagram
+    self.on_trade_ticks_message(inst, seq, *TICKS_PART.iter_unpack(data[TRADE_TICKS_HEADER_SIZE:]))
+TypeError: on_trade_ticks_message() takes 3 positional arguments but 7 were given
+2023-03-13 16:29:00,288 [INFO   ] [APP] closing event loop
+2023-03-13 16:29:00,288 [INFO   ] [CONNECTION] fd=1420 connection lost
+2023-03-13 16:29:00,290 [ERROR  ] [asyncio] Exception in callback _SelectorSocketTransport._call_connection_lost(None)
+handle: <Handle _SelectorSocketTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\selector_events.py", line 970, in _call_connection_lost
+    super()._call_connection_lost(exc)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\selector_events.py", line 728, in _call_connection_lost
+    self._protocol.connection_lost(exc)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\base_auto_trader.py", line 59, in connection_lost
+    Subscription.close(self)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\messages.py", line 186, in close
+    self._receiver_transport.close()
+AttributeError: 'NoneType' object has no attribute 'close'
+2023-03-13 16:52:23,971 [INFO   ] [APP] testtrader started with arguments={rtg.py, run, .\autotrader.py, .\testtrader.py, .\autotrader1.py}
+2023-03-13 16:52:23,972 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"Type":"mmap","Name":"info.dat"},"TeamName":"TraderTwo","Secret":"secret"}
+2023-03-13 16:52:23,985 [INFO   ] [CONNECTION] fd=992 connection established: peer=127.0.0.1:12345
+2023-03-13 16:52:29,668 [ERROR  ] [RECEIVER] connection lost:
+Traceback (most recent call last):
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\pubsub.py", line 136, in _subscribe_worker
+    protocol.datagram_received(buffer[start:start + length], from_addr)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\messages.py", line 212, in datagram_received
+    self.on_datagram(typ, data, HEADER_SIZE, length)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\base_auto_trader.py", line 72, in on_datagram
+    self.on_trade_ticks_message(inst, seq, *TICKS_PART.iter_unpack(data[TRADE_TICKS_HEADER_SIZE:]))
+TypeError: on_trade_ticks_message() takes 3 positional arguments but 7 were given
+2023-03-13 16:52:29,668 [INFO   ] [APP] closing event loop
+2023-03-13 16:52:29,668 [INFO   ] [CONNECTION] fd=992 connection lost
+2023-03-13 16:52:29,668 [ERROR  ] [asyncio] Exception in callback _SelectorSocketTransport._call_connection_lost(None)
+handle: <Handle _SelectorSocketTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\selector_events.py", line 970, in _call_connection_lost
+    super()._call_connection_lost(exc)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\selector_events.py", line 728, in _call_connection_lost
+    self._protocol.connection_lost(exc)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\base_auto_trader.py", line 59, in connection_lost
+    Subscription.close(self)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\messages.py", line 186, in close
+    self._receiver_transport.close()
+AttributeError: 'NoneType' object has no attribute 'close'
+2023-03-13 17:09:00,197 [INFO   ] [APP] testtrader started with arguments={rtg.py, run, .\autotrader.py, .\testtrader.py, .\autotrader1.py}
+2023-03-13 17:09:00,197 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"Type":"mmap","Name":"info.dat"},"TeamName":"TraderTwo","Secret":"secret"}
+2023-03-13 17:09:00,211 [INFO   ] [CONNECTION] fd=1456 connection established: peer=127.0.0.1:12345
+2023-03-13 17:09:05,571 [ERROR  ] [RECEIVER] connection lost:
+Traceback (most recent call last):
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\pubsub.py", line 136, in _subscribe_worker
+    protocol.datagram_received(buffer[start:start + length], from_addr)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\messages.py", line 212, in datagram_received
+    self.on_datagram(typ, data, HEADER_SIZE, length)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\base_auto_trader.py", line 72, in on_datagram
+    self.on_trade_ticks_message(inst, seq, *TICKS_PART.iter_unpack(data[TRADE_TICKS_HEADER_SIZE:]))
+TypeError: on_trade_ticks_message() takes 3 positional arguments but 7 were given
+2023-03-13 17:09:05,571 [INFO   ] [APP] closing event loop
+2023-03-13 17:09:05,586 [INFO   ] [CONNECTION] fd=1456 connection lost
+2023-03-13 17:09:05,586 [ERROR  ] [asyncio] Exception in callback _SelectorSocketTransport._call_connection_lost(None)
+handle: <Handle _SelectorSocketTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\selector_events.py", line 970, in _call_connection_lost
+    super()._call_connection_lost(exc)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\selector_events.py", line 728, in _call_connection_lost
+    self._protocol.connection_lost(exc)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\base_auto_trader.py", line 59, in connection_lost
+    Subscription.close(self)
+  File "C:\Users\soham\Documents\Uni\Quant\Optiver\pyready_trader_go\pyready_trader_go\ready_trader_go\messages.py", line 186, in close
+    self._receiver_transport.close()
+AttributeError: 'NoneType' object has no attribute 'close'
